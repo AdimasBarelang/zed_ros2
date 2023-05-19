@@ -1,0 +1,16 @@
+/home/adimas/zed_ros2/install/open_cam/lib/open_cam/open_cam
+/home/adimas/zed_ros2/install/open_cam/share/ament_index/resource_index/package_run_dependencies/open_cam
+/home/adimas/zed_ros2/install/open_cam/share/ament_index/resource_index/parent_prefix_path/open_cam
+/home/adimas/zed_ros2/install/open_cam/share/open_cam/environment/ament_prefix_path.sh
+/home/adimas/zed_ros2/install/open_cam/share/open_cam/environment/ament_prefix_path.dsv
+/home/adimas/zed_ros2/install/open_cam/share/open_cam/environment/path.sh
+/home/adimas/zed_ros2/install/open_cam/share/open_cam/environment/path.dsv
+/home/adimas/zed_ros2/install/open_cam/share/open_cam/local_setup.bash
+/home/adimas/zed_ros2/install/open_cam/share/open_cam/local_setup.sh
+/home/adimas/zed_ros2/install/open_cam/share/open_cam/local_setup.zsh
+/home/adimas/zed_ros2/install/open_cam/share/open_cam/local_setup.dsv
+/home/adimas/zed_ros2/install/open_cam/share/open_cam/package.dsv
+/home/adimas/zed_ros2/install/open_cam/share/ament_index/resource_index/packages/open_cam
+/home/adimas/zed_ros2/install/open_cam/share/open_cam/cmake/open_camConfig.cmake
+/home/adimas/zed_ros2/install/open_cam/share/open_cam/cmake/open_camConfig-version.cmake
+/home/adimas/zed_ros2/install/open_cam/share/open_cam/package.xml

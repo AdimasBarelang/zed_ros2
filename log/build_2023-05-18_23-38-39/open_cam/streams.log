@@ -1,0 +1,126 @@
+[0.011s] Invoking command in '/home/adimas/zed_ros2/build/open_cam': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/adimas/zed_ros2/build/open_cam -- -j8 -l8
+[0.036s] [ 50%] [32mBuilding CXX object CMakeFiles/open_cam.dir/src/main.cpp.o[0m
+[1.805s] In file included from [01m[K/home/adimas/zed_ros2/src/open_cam/src/main.cpp:7[m[K:
+[1.805s] [01m[K/usr/local/zed/include/sl/Camera.hpp:896:13:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K-Wpedantic[m[K]
+[1.805s]   896 |             [01;35m[K}[m[K;
+[1.805s]       |             [01;35m[K^[m[K
+[1.805s] [01m[K/usr/local/zed/include/sl/Camera.hpp:1049:13:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K-Wpedantic[m[K]
+[1.806s]  1049 |             [01;35m[K}[m[K;
+[1.806s]       |             [01;35m[K^[m[K
+[1.806s] [01m[K/usr/local/zed/include/sl/Camera.hpp:1226:13:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K-Wpedantic[m[K]
+[1.806s]  1226 |             [01;35m[K}[m[K;
+[1.806s]       |             [01;35m[K^[m[K
+[1.806s] [01m[K/usr/local/zed/include/sl/Camera.hpp:1390:13:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K-Wpedantic[m[K]
+[1.806s]  1390 |             [01;35m[K}[m[K;
+[1.806s]       |             [01;35m[K^[m[K
+[1.806s] [01m[K/usr/local/zed/include/sl/Camera.hpp:1394:13:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K-Wpedantic[m[K]
+[1.807s]  1394 |             [01;35m[K}[m[K;
+[1.807s]       |             [01;35m[K^[m[K
+[1.807s] [01m[K/usr/local/zed/include/sl/Camera.hpp:1398:13:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K-Wpedantic[m[K]
+[1.807s]  1398 |             [01;35m[K}[m[K;
+[1.807s]       |             [01;35m[K^[m[K
+[1.807s] [01m[K/usr/local/zed/include/sl/Camera.hpp:1638:13:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K-Wpedantic[m[K]
+[1.808s]  1638 |             [01;35m[K}[m[K;
+[1.808s]       |             [01;35m[K^[m[K
+[1.808s] [01m[K/usr/local/zed/include/sl/Camera.hpp:1642:13:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K-Wpedantic[m[K]
+[1.808s]  1642 |             [01;35m[K}[m[K;
+[1.808s]       |             [01;35m[K^[m[K
+[1.808s] [01m[K/usr/local/zed/include/sl/Camera.hpp:1646:13:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K-Wpedantic[m[K]
+[1.808s]  1646 |             [01;35m[K}[m[K;
+[1.808s]       |             [01;35m[K^[m[K
+[1.810s] [01m[K/usr/local/zed/include/sl/Camera.hpp:[m[K In function ‘[01m[Ksl::Timestamp sl::operator+(sl::Timestamp, const sl::Timestamp&)[m[K’:
+[1.810s] [01m[K/usr/local/zed/include/sl/Camera.hpp:2104:16:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr sl::Timestamp::Timestamp(const sl::Timestamp&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+[1.810s]  2104 |         return [01;35m[Klhs[m[K;
+[1.810s]       |                [01;35m[K^~~[m[K
+[1.810s] [01m[K/usr/local/zed/include/sl/Camera.hpp:2043:20:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Ksl::Timestamp[m[K’ has user-provided ‘[01m[Ksl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)[m[K’
+[1.810s]  2043 |         Timestamp& [01;36m[Koperator[m[K=(Timestamp other) {
+[1.810s]       |                    [01;36m[K^~~~~~~~[m[K
+[1.810s] [01m[K/usr/local/zed/include/sl/Camera.hpp:[m[K In function ‘[01m[Ksl::Timestamp sl::operator-(sl::Timestamp, const sl::Timestamp&)[m[K’:
+[1.810s] [01m[K/usr/local/zed/include/sl/Camera.hpp:2109:16:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr sl::Timestamp::Timestamp(const sl::Timestamp&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+[1.810s]  2109 |         return [01;35m[Klhs[m[K;
+[1.810s]       |                [01;35m[K^~~[m[K
+[1.810s] [01m[K/usr/local/zed/include/sl/Camera.hpp:2043:20:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Ksl::Timestamp[m[K’ has user-provided ‘[01m[Ksl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)[m[K’
+[1.811s]  2043 |         Timestamp& [01;36m[Koperator[m[K=(Timestamp other) {
+[1.811s]       |                    [01;36m[K^~~~~~~~[m[K
+[1.811s] [01m[K/usr/local/zed/include/sl/Camera.hpp:[m[K In function ‘[01m[Ksl::Timestamp sl::operator/(sl::Timestamp, const sl::Timestamp&)[m[K’:
+[1.811s] [01m[K/usr/local/zed/include/sl/Camera.hpp:2114:16:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr sl::Timestamp::Timestamp(const sl::Timestamp&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+[1.811s]  2114 |         return [01;35m[Klhs[m[K;
+[1.811s]       |                [01;35m[K^~~[m[K
+[1.811s] [01m[K/usr/local/zed/include/sl/Camera.hpp:2043:20:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Ksl::Timestamp[m[K’ has user-provided ‘[01m[Ksl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)[m[K’
+[1.811s]  2043 |         Timestamp& [01;36m[Koperator[m[K=(Timestamp other) {
+[1.811s]       |                    [01;36m[K^~~~~~~~[m[K
+[1.811s] [01m[K/usr/local/zed/include/sl/Camera.hpp:[m[K In function ‘[01m[Ksl::Timestamp sl::operator*(sl::Timestamp, const sl::Timestamp&)[m[K’:
+[1.811s] [01m[K/usr/local/zed/include/sl/Camera.hpp:2119:16:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr sl::Timestamp::Timestamp(const sl::Timestamp&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+[1.811s]  2119 |         return [01;35m[Klhs[m[K;
+[1.811s]       |                [01;35m[K^~~[m[K
+[1.811s] [01m[K/usr/local/zed/include/sl/Camera.hpp:2043:20:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Ksl::Timestamp[m[K’ has user-provided ‘[01m[Ksl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)[m[K’
+[1.811s]  2043 |         Timestamp& [01;36m[Koperator[m[K=(Timestamp other) {
+[1.811s]       |                    [01;36m[K^~~~~~~~[m[K
+[1.811s] [01m[K/usr/local/zed/include/sl/Camera.hpp:[m[K In function ‘[01m[Ksl::Timestamp sl::getCurrentTimeStamp()[m[K’:
+[1.811s] [01m[K/usr/local/zed/include/sl/Camera.hpp:2153:16:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr sl::Timestamp::Timestamp(const sl::Timestamp&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+[1.811s]  2153 |         return [01;35m[Kcurrent_ts[m[K;
+[1.811s]       |                [01;35m[K^~~~~~~~~~[m[K
+[1.811s] [01m[K/usr/local/zed/include/sl/Camera.hpp:2043:20:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Ksl::Timestamp[m[K’ has user-provided ‘[01m[Ksl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)[m[K’
+[1.811s]  2043 |         Timestamp& [01;36m[Koperator[m[K=(Timestamp other) {
+[1.812s]       |                    [01;36m[K^~~~~~~~[m[K
+[1.812s] [01m[K/usr/local/zed/include/sl/Camera.hpp:[m[K In function ‘[01m[KcudaError sl::__cudaSafeCall(cudaError, const char*, const char*, int)[m[K’:
+[1.812s] [01m[K/usr/local/zed/include/sl/Camera.hpp:2160:89:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfile[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.812s]  2160 | or __cudaSafeCall(cudaError err, const char *func, [01;35m[Kconst char *file[m[K, const int line) {
+[1.812s]       |                                                    [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[1.812s] 
+[1.812s] [01m[K/usr/local/zed/include/sl/Camera.hpp:2160:105:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kline[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.812s]  2160 | l(cudaError err, const char *func, const char *file, [01;35m[Kconst int line[m[K) {
+[1.812s]       |                                                      [01;35m[K~~~~~~~~~~^~~~[m[K
+[1.812s] 
+[1.814s] In file included from [01m[K/home/adimas/zed_ros2/src/open_cam/src/main.cpp:7[m[K:
+[1.814s] [01m[K/usr/local/zed/include/sl/Camera.hpp:[m[K In member function ‘[01m[Ksl::CalibrationParameters sl::CalibrationParameters::scale(sl::Resolution)[m[K’:
+[1.814s] [01m[K/usr/local/zed/include/sl/Camera.hpp:3178:62:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Ksl::Transform& sl::Transform::operator=(const sl::Transform&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+[1.814s]  3178 |             output_calibration_parameters.stereo_transform = [01;35m[Kstereo_transform[m[K;
+[1.814s]       |                                                              [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[1.814s] In file included from [01m[K/home/adimas/zed_ros2/src/open_cam/src/main.cpp:7[m[K:
+[1.814s] [01m[K/usr/local/zed/include/sl/Camera.hpp:3023:9:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Ksl::Transform[m[K’ has user-provided ‘[01m[Ksl::Transform::Transform(const sl::Transform&)[m[K’
+[1.814s]  3023 |         [01;36m[KTransform[m[K(const Transform &motion);
+[1.814s]       |         [01;36m[K^~~~~~~~~[m[K
+[1.814s] [01m[K/usr/local/zed/include/sl/Camera.hpp:[m[K In member function ‘[01m[Ksl::Transform& sl::Transform::operator=(const sl::Transform&)[m[K’:
+[1.814s] [01m[K/usr/local/zed/include/sl/Camera.hpp:3012:60:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Ksl::Matrix4f& sl::Matrix4f::operator=(const sl::Matrix4f&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+[1.814s]  3012 |     class /*@cond SHOWHIDDEN*/ SL_CORE_EXPORT /*@endcond*/ [01;35m[KTransform[m[K : public Matrix4f {
+[1.814s]       |                                                            [01;35m[K^~~~~~~~~[m[K
+[1.814s] [01m[K/usr/local/zed/include/sl/Camera.hpp:1069:9:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Ksl::Matrix4f[m[K’ has user-provided ‘[01m[Ksl::Matrix4f::Matrix4f(const sl::Matrix4f&)[m[K’
+[1.814s]  1069 |         [01;36m[KMatrix4f[m[K(const Matrix4f &mat);
+[1.814s]       |         [01;36m[K^~~~~~~~[m[K
+[1.815s] In file included from [01m[K/home/adimas/zed_ros2/src/open_cam/src/main.cpp:7[m[K:
+[1.815s] [01m[K/usr/local/zed/include/sl/Camera.hpp:[m[K In member function ‘[01m[Ksl::CalibrationParameters sl::CalibrationParameters::scale(sl::Resolution)[m[K’:
+[1.815s] [01m[K/usr/local/zed/include/sl/Camera.hpp:3178:62:[m[K [01;36m[Knote: [m[Ksynthesized method ‘[01m[Ksl::Transform& sl::Transform::operator=(const sl::Transform&)[m[K’ first required here
+[1.815s]  3178 |             output_calibration_parameters.stereo_transform = [01;36m[Kstereo_transform[m[K;
+[1.815s]       |                                                              [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[1.891s] [01m[K/usr/local/zed/include/sl/Camera.hpp:[m[K At global scope:
+[1.891s] [01m[K/usr/local/zed/include/sl/Camera.hpp:6254:12:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K-Wignored-qualifiers[m[K]
+[1.891s]  6254 |     inline [01;35m[Kconst[m[K void /*@cond SHOWHIDDEN*/SL_SDK_EXPORT/*@endcond*/ getZEDSDKBuildVersion(int &major, int& minor, int& patch) {
+[1.891s]       |            [01;35m[K^~~~~[m[K
+[1.893s] [01m[K/usr/local/zed/include/sl/Camera.hpp:6640:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[1.893s]  6640 | }[01;35m[K;[m[K
+[1.893s]       |  [01;35m[K^[m[K
+[1.920s] [01m[K/home/adimas/zed_ros2/src/open_cam/src/main.cpp:[m[K In member function ‘[01m[Kvoid ZedCameraNode::captureAndPublishImage()[m[K’:
+[1.920s] [01m[K/home/adimas/zed_ros2/src/open_cam/src/main.cpp:68:9:[m[K [01;35m[Kwarning: [m[Kinit-statement in selection statements only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+[1.921s]    68 |     if ([01;35m[K([m[Ksl::Resolution(cv_image.cols, cv_image.rows))
+[1.921s]       |         [01;35m[K^[m[K
+[1.921s] [01m[K/home/adimas/zed_ros2/src/open_cam/src/main.cpp:68:55:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K{[m[K’ token
+[1.921s]    68 |     if ((sl::Resolution(cv_image.cols, cv_image.rows))
+[1.921s]       |                                                       [01;31m[K^[m[K
+[1.921s]       |                                                       [32m[K;[m[K
+[1.921s]    69 |     [32m[K{[m[K
+[1.921s]       |     [32m[K~[m[K                                                  
+[1.921s] [01m[K/home/adimas/zed_ros2/src/open_cam/src/main.cpp:74:19:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+[1.921s]    74 |     cv::waitKey(1)[01;31m[K;[m[K // Wait for a key press to refresh the window
+[1.921s]       |                   [01;31m[K^[m[K
+[1.921s]       |                   [32m[K)[m[K
+[1.921s] [01m[K/home/adimas/zed_ros2/src/open_cam/src/main.cpp:68:8:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[1.921s]    68 |     if [01;36m[K([m[K(sl::Resolution(cv_image.cols, cv_image.rows))
+[1.921s]       |        [01;36m[K^[m[K
+[1.921s] [01m[K/home/adimas/zed_ros2/src/open_cam/src/main.cpp:74:19:[m[K [01;35m[Kwarning: [m[Ksuggest braces around empty body in an ‘[01m[Kif[m[K’ statement [[01;35m[K-Wempty-body[m[K]
+[1.921s]    74 |     cv::waitKey(1)[01;35m[K;[m[K // Wait for a key press to refresh the window
+[1.921s]       |                   [01;35m[K^[m[K
+[2.764s] make[2]: *** [CMakeFiles/open_cam.dir/build.make:76: CMakeFiles/open_cam.dir/src/main.cpp.o] Error 1
+[2.764s] make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/open_cam.dir/all] Error 2
+[2.764s] make: *** [Makefile:146: all] Error 2
+[2.765s] Invoked command in '/home/adimas/zed_ros2/build/open_cam' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/adimas/zed_ros2/build/open_cam -- -j8 -l8

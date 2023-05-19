@@ -1,0 +1,179 @@
+[0.000000] (-) TimerEvent: {}
+[0.000487] (open_cam) JobQueued: {'identifier': 'open_cam', 'dependencies': OrderedDict()}
+[0.000893] (open_cam) JobStarted: {'identifier': 'open_cam'}
+[0.009959] (open_cam) JobProgress: {'identifier': 'open_cam', 'progress': 'cmake'}
+[0.011135] (open_cam) JobProgress: {'identifier': 'open_cam', 'progress': 'build'}
+[0.011176] (open_cam) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/adimas/zed_ros2/build/open_cam', '--', '-j8', '-l8'], 'cwd': '/home/adimas/zed_ros2/build/open_cam', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'adimas'), ('LC_TIME', 'id_ID.UTF-8'), ('SSH_AGENT_PID', '1920'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-12.1/lib64:'), ('HOME', '/home/adimas'), ('OLDPWD', '/home/adimas/zed_ros2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '1684'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2361'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('QT_QPA_PLATFORMTHEME', 'appmenu-qt5'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/adimas/zed_ros2/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'adimas'), ('JOURNAL_STREAM', '9:46168'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'adimas'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('GTK2_MODULES', 'overlay-scrollbar'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-12.1/bin:/home/adimas/bin:/home/adimas/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/FUTURA:@/tmp/.ICE-unix/1958,unix/FUTURA:/tmp/.ICE-unix/1958'), ('INVOCATION_ID', '6e0488c0917c4d27a22613cfca7352a7'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/adimas/zed_ros2/install/open_cam:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:ddf86e08-261c-4882-89bb-1c2e89c016f6'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/adimas/zed_ros2/build/open_cam'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/adimas/zed_ros2/install/open_cam:/opt/ros/foxy')]), 'shell': False}
+[0.040088] (open_cam) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/open_cam.dir/src/main.cpp.o\x1b[0m\n'}
+[0.100079] (-) TimerEvent: {}
+[0.200369] (-) TimerEvent: {}
+[0.300647] (-) TimerEvent: {}
+[0.400941] (-) TimerEvent: {}
+[0.501251] (-) TimerEvent: {}
+[0.601549] (-) TimerEvent: {}
+[0.701840] (-) TimerEvent: {}
+[0.802147] (-) TimerEvent: {}
+[0.902451] (-) TimerEvent: {}
+[1.002767] (-) TimerEvent: {}
+[1.103062] (-) TimerEvent: {}
+[1.203357] (-) TimerEvent: {}
+[1.303630] (-) TimerEvent: {}
+[1.403923] (-) TimerEvent: {}
+[1.504212] (-) TimerEvent: {}
+[1.604501] (-) TimerEvent: {}
+[1.704808] (-) TimerEvent: {}
+[1.805134] (-) TimerEvent: {}
+[1.877725] (open_cam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/adimas/zed_ros2/src/open_cam/src/main.cpp:8\x1b[m\x1b[K:\n'}
+[1.878114] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:896:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[1.878265] (open_cam) StderrLine: {'line': b'  896 |             \x1b[01;35m\x1b[K}\x1b[m\x1b[K;\n'}
+[1.878340] (open_cam) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.878395] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:1049:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[1.878449] (open_cam) StderrLine: {'line': b' 1049 |             \x1b[01;35m\x1b[K}\x1b[m\x1b[K;\n'}
+[1.878498] (open_cam) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.878559] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:1226:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[1.878607] (open_cam) StderrLine: {'line': b' 1226 |             \x1b[01;35m\x1b[K}\x1b[m\x1b[K;\n'}
+[1.878652] (open_cam) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.878944] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:1390:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[1.879023] (open_cam) StderrLine: {'line': b' 1390 |             \x1b[01;35m\x1b[K}\x1b[m\x1b[K;\n'}
+[1.879078] (open_cam) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.879130] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:1394:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[1.879180] (open_cam) StderrLine: {'line': b' 1394 |             \x1b[01;35m\x1b[K}\x1b[m\x1b[K;\n'}
+[1.879227] (open_cam) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.879274] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:1398:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[1.879336] (open_cam) StderrLine: {'line': b' 1398 |             \x1b[01;35m\x1b[K}\x1b[m\x1b[K;\n'}
+[1.879396] (open_cam) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.880237] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:1638:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[1.880314] (open_cam) StderrLine: {'line': b' 1638 |             \x1b[01;35m\x1b[K}\x1b[m\x1b[K;\n'}
+[1.880369] (open_cam) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.880419] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:1642:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[1.880468] (open_cam) StderrLine: {'line': b' 1642 |             \x1b[01;35m\x1b[K}\x1b[m\x1b[K;\n'}
+[1.880516] (open_cam) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.880562] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:1646:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[1.880608] (open_cam) StderrLine: {'line': b' 1646 |             \x1b[01;35m\x1b[K}\x1b[m\x1b[K;\n'}
+[1.880653] (open_cam) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.882398] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Ksl::Timestamp sl::operator+(sl::Timestamp, const sl::Timestamp&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.882519] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:2104:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kimplicitly-declared \xe2\x80\x98\x1b[01m\x1b[Kconstexpr sl::Timestamp::Timestamp(const sl::Timestamp&)\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-copy\x1b[m\x1b[K]\n'}
+[1.882808] (open_cam) StderrLine: {'line': b' 2104 |         return \x1b[01;35m\x1b[Klhs\x1b[m\x1b[K;\n'}
+[1.882871] (open_cam) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.882923] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:2043:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kbecause \xe2\x80\x98\x1b[01m\x1b[Ksl::Timestamp\x1b[m\x1b[K\xe2\x80\x99 has user-provided \xe2\x80\x98\x1b[01m\x1b[Ksl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.883083] (open_cam) StderrLine: {'line': b' 2043 |         Timestamp& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(Timestamp other) {\n'}
+[1.883182] (open_cam) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.883236] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Ksl::Timestamp sl::operator-(sl::Timestamp, const sl::Timestamp&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.883288] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:2109:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kimplicitly-declared \xe2\x80\x98\x1b[01m\x1b[Kconstexpr sl::Timestamp::Timestamp(const sl::Timestamp&)\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-copy\x1b[m\x1b[K]\n'}
+[1.883346] (open_cam) StderrLine: {'line': b' 2109 |         return \x1b[01;35m\x1b[Klhs\x1b[m\x1b[K;\n'}
+[1.883409] (open_cam) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.883455] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:2043:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kbecause \xe2\x80\x98\x1b[01m\x1b[Ksl::Timestamp\x1b[m\x1b[K\xe2\x80\x99 has user-provided \xe2\x80\x98\x1b[01m\x1b[Ksl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.883512] (open_cam) StderrLine: {'line': b' 2043 |         Timestamp& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(Timestamp other) {\n'}
+[1.883559] (open_cam) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.883605] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Ksl::Timestamp sl::operator/(sl::Timestamp, const sl::Timestamp&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.883651] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:2114:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kimplicitly-declared \xe2\x80\x98\x1b[01m\x1b[Kconstexpr sl::Timestamp::Timestamp(const sl::Timestamp&)\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-copy\x1b[m\x1b[K]\n'}
+[1.883705] (open_cam) StderrLine: {'line': b' 2114 |         return \x1b[01;35m\x1b[Klhs\x1b[m\x1b[K;\n'}
+[1.883752] (open_cam) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.883797] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:2043:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kbecause \xe2\x80\x98\x1b[01m\x1b[Ksl::Timestamp\x1b[m\x1b[K\xe2\x80\x99 has user-provided \xe2\x80\x98\x1b[01m\x1b[Ksl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.883844] (open_cam) StderrLine: {'line': b' 2043 |         Timestamp& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(Timestamp other) {\n'}
+[1.883889] (open_cam) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.883933] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Ksl::Timestamp sl::operator*(sl::Timestamp, const sl::Timestamp&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.883977] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:2119:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kimplicitly-declared \xe2\x80\x98\x1b[01m\x1b[Kconstexpr sl::Timestamp::Timestamp(const sl::Timestamp&)\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-copy\x1b[m\x1b[K]\n'}
+[1.884023] (open_cam) StderrLine: {'line': b' 2119 |         return \x1b[01;35m\x1b[Klhs\x1b[m\x1b[K;\n'}
+[1.884068] (open_cam) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.884114] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:2043:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kbecause \xe2\x80\x98\x1b[01m\x1b[Ksl::Timestamp\x1b[m\x1b[K\xe2\x80\x99 has user-provided \xe2\x80\x98\x1b[01m\x1b[Ksl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.884161] (open_cam) StderrLine: {'line': b' 2043 |         Timestamp& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(Timestamp other) {\n'}
+[1.884207] (open_cam) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.884253] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Ksl::Timestamp sl::getCurrentTimeStamp()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.884299] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:2153:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kimplicitly-declared \xe2\x80\x98\x1b[01m\x1b[Kconstexpr sl::Timestamp::Timestamp(const sl::Timestamp&)\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-copy\x1b[m\x1b[K]\n'}
+[1.884346] (open_cam) StderrLine: {'line': b' 2153 |         return \x1b[01;35m\x1b[Kcurrent_ts\x1b[m\x1b[K;\n'}
+[1.884392] (open_cam) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.884437] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:2043:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kbecause \xe2\x80\x98\x1b[01m\x1b[Ksl::Timestamp\x1b[m\x1b[K\xe2\x80\x99 has user-provided \xe2\x80\x98\x1b[01m\x1b[Ksl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.884486] (open_cam) StderrLine: {'line': b' 2043 |         Timestamp& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(Timestamp other) {\n'}
+[1.884531] (open_cam) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.884576] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[KcudaError sl::__cudaSafeCall(cudaError, const char*, const char*, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.884620] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:2160:89:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kfile\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[1.884666] (open_cam) StderrLine: {'line': b' 2160 | ror __cudaSafeCall(cudaError err, const char *func, \x1b[01;35m\x1b[Kconst char *file\x1b[m\x1b[K, const int line) {\n'}
+[1.884712] (open_cam) StderrLine: {'line': b'      |                                                     \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[1.884757] (open_cam) StderrLine: {'line': b'\n'}
+[1.884802] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:2160:105:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kline\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[1.884849] (open_cam) StderrLine: {'line': b' 2160 | ll(cudaError err, const char *func, const char *file, \x1b[01;35m\x1b[Kconst int line\x1b[m\x1b[K) {\n'}
+[1.884894] (open_cam) StderrLine: {'line': b'      |                                                       \x1b[01;35m\x1b[K~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[1.884940] (open_cam) StderrLine: {'line': b'\n'}
+[1.886512] (open_cam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/adimas/zed_ros2/src/open_cam/src/main.cpp:8\x1b[m\x1b[K:\n'}
+[1.886620] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Ksl::CalibrationParameters sl::CalibrationParameters::scale(sl::Resolution)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.886742] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:3178:62:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kimplicitly-declared \xe2\x80\x98\x1b[01m\x1b[Ksl::Transform& sl::Transform::operator=(const sl::Transform&)\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-copy\x1b[m\x1b[K]\n'}
+[1.886864] (open_cam) StderrLine: {'line': b' 3178 |             output_calibration_parameters.stereo_transform = \x1b[01;35m\x1b[Kstereo_transform\x1b[m\x1b[K;\n'}
+[1.886972] (open_cam) StderrLine: {'line': b'      |                                                              \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.887021] (open_cam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/adimas/zed_ros2/src/open_cam/src/main.cpp:8\x1b[m\x1b[K:\n'}
+[1.887069] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:3023:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kbecause \xe2\x80\x98\x1b[01m\x1b[Ksl::Transform\x1b[m\x1b[K\xe2\x80\x99 has user-provided \xe2\x80\x98\x1b[01m\x1b[Ksl::Transform::Transform(const sl::Transform&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.887121] (open_cam) StderrLine: {'line': b' 3023 |         \x1b[01;36m\x1b[KTransform\x1b[m\x1b[K(const Transform &motion);\n'}
+[1.887172] (open_cam) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.887220] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Ksl::Transform& sl::Transform::operator=(const sl::Transform&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.887270] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:3012:60:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kimplicitly-declared \xe2\x80\x98\x1b[01m\x1b[Ksl::Matrix4f& sl::Matrix4f::operator=(const sl::Matrix4f&)\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-copy\x1b[m\x1b[K]\n'}
+[1.887325] (open_cam) StderrLine: {'line': b' 3012 |     class /*@cond SHOWHIDDEN*/ SL_CORE_EXPORT /*@endcond*/ \x1b[01;35m\x1b[KTransform\x1b[m\x1b[K : public Matrix4f {\n'}
+[1.887374] (open_cam) StderrLine: {'line': b'      |                                                            \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.887420] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:1069:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kbecause \xe2\x80\x98\x1b[01m\x1b[Ksl::Matrix4f\x1b[m\x1b[K\xe2\x80\x99 has user-provided \xe2\x80\x98\x1b[01m\x1b[Ksl::Matrix4f::Matrix4f(const sl::Matrix4f&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.887467] (open_cam) StderrLine: {'line': b' 1069 |         \x1b[01;36m\x1b[KMatrix4f\x1b[m\x1b[K(const Matrix4f &mat);\n'}
+[1.887514] (open_cam) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.887559] (open_cam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/adimas/zed_ros2/src/open_cam/src/main.cpp:8\x1b[m\x1b[K:\n'}
+[1.887607] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Ksl::CalibrationParameters sl::CalibrationParameters::scale(sl::Resolution)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.887654] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:3178:62:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksynthesized method \xe2\x80\x98\x1b[01m\x1b[Ksl::Transform& sl::Transform::operator=(const sl::Transform&)\x1b[m\x1b[K\xe2\x80\x99 first required here\n'}
+[1.887702] (open_cam) StderrLine: {'line': b' 3178 |             output_calibration_parameters.stereo_transform = \x1b[01;36m\x1b[Kstereo_transform\x1b[m\x1b[K;\n'}
+[1.887749] (open_cam) StderrLine: {'line': b'      |                                                              \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.905257] (-) TimerEvent: {}
+[1.964650] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:\x1b[m\x1b[K At global scope:\n'}
+[1.964803] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:6254:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktype qualifiers ignored on function return type [\x1b[01;35m\x1b[K-Wignored-qualifiers\x1b[m\x1b[K]\n'}
+[1.964862] (open_cam) StderrLine: {'line': b' 6254 |     inline \x1b[01;35m\x1b[Kconst\x1b[m\x1b[K void /*@cond SHOWHIDDEN*/SL_SDK_EXPORT/*@endcond*/ getZEDSDKBuildVersion(int &major, int& minor, int& patch) {\n'}
+[1.964913] (open_cam) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.967077] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:6640:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[1.967158] (open_cam) StderrLine: {'line': b' 6640 | }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[1.967214] (open_cam) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.005385] (-) TimerEvent: {}
+[2.105679] (-) TimerEvent: {}
+[2.205975] (-) TimerEvent: {}
+[2.306234] (-) TimerEvent: {}
+[2.406529] (-) TimerEvent: {}
+[2.506792] (-) TimerEvent: {}
+[2.607083] (-) TimerEvent: {}
+[2.707381] (-) TimerEvent: {}
+[2.807765] (-) TimerEvent: {}
+[2.908092] (-) TimerEvent: {}
+[3.008363] (-) TimerEvent: {}
+[3.108646] (-) TimerEvent: {}
+[3.208940] (-) TimerEvent: {}
+[3.309228] (-) TimerEvent: {}
+[3.409510] (-) TimerEvent: {}
+[3.509795] (-) TimerEvent: {}
+[3.610075] (-) TimerEvent: {}
+[3.710357] (-) TimerEvent: {}
+[3.810627] (-) TimerEvent: {}
+[3.822850] (open_cam) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable open_cam\x1b[0m\n'}
+[3.910759] (-) TimerEvent: {}
+[4.011098] (-) TimerEvent: {}
+[4.111423] (-) TimerEvent: {}
+[4.211727] (-) TimerEvent: {}
+[4.312035] (-) TimerEvent: {}
+[4.388039] (open_cam) StderrLine: {'line': b'/usr/bin/ld: warning: libopencv_imgcodecs.so.4.2, needed by /opt/ros/foxy/lib/libcv_bridge.so, may conflict with libopencv_imgcodecs.so.407\n'}
+[4.388283] (open_cam) StderrLine: {'line': b'/usr/bin/ld: warning: libopencv_core.so.4.2, needed by /opt/ros/foxy/lib/libcv_bridge.so, may conflict with libopencv_core.so.407\n'}
+[4.391156] (open_cam) StdoutLine: {'line': b'[100%] Built target open_cam\n'}
+[4.394692] (open_cam) CommandEnded: {'returncode': 0}
+[4.406640] (open_cam) JobProgress: {'identifier': 'open_cam', 'progress': 'install'}
+[4.410964] (open_cam) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/adimas/zed_ros2/build/open_cam'], 'cwd': '/home/adimas/zed_ros2/build/open_cam', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'adimas'), ('LC_TIME', 'id_ID.UTF-8'), ('SSH_AGENT_PID', '1920'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-12.1/lib64:'), ('HOME', '/home/adimas'), ('OLDPWD', '/home/adimas/zed_ros2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '1684'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2361'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('QT_QPA_PLATFORMTHEME', 'appmenu-qt5'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/adimas/zed_ros2/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'adimas'), ('JOURNAL_STREAM', '9:46168'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'adimas'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('GTK2_MODULES', 'overlay-scrollbar'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-12.1/bin:/home/adimas/bin:/home/adimas/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/FUTURA:@/tmp/.ICE-unix/1958,unix/FUTURA:/tmp/.ICE-unix/1958'), ('INVOCATION_ID', '6e0488c0917c4d27a22613cfca7352a7'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/adimas/zed_ros2/install/open_cam:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:ddf86e08-261c-4882-89bb-1c2e89c016f6'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/adimas/zed_ros2/build/open_cam'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/adimas/zed_ros2/install/open_cam:/opt/ros/foxy')]), 'shell': False}
+[4.412524] (-) TimerEvent: {}
+[4.414899] (open_cam) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.415925] (open_cam) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[4.416327] (open_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/adimas/zed_ros2/install/open_cam/lib/open_cam/open_cam\n'}
+[4.416492] (open_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/adimas/zed_ros2/install/open_cam/share/ament_index/resource_index/package_run_dependencies/open_cam\n'}
+[4.417005] (open_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/adimas/zed_ros2/install/open_cam/share/ament_index/resource_index/parent_prefix_path/open_cam\n'}
+[4.417362] (open_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/adimas/zed_ros2/install/open_cam/share/open_cam/environment/ament_prefix_path.sh\n'}
+[4.417691] (open_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/adimas/zed_ros2/install/open_cam/share/open_cam/environment/ament_prefix_path.dsv\n'}
+[4.417846] (open_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/adimas/zed_ros2/install/open_cam/share/open_cam/environment/path.sh\n'}
+[4.418031] (open_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/adimas/zed_ros2/install/open_cam/share/open_cam/environment/path.dsv\n'}
+[4.418129] (open_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/adimas/zed_ros2/install/open_cam/share/open_cam/local_setup.bash\n'}
+[4.418259] (open_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/adimas/zed_ros2/install/open_cam/share/open_cam/local_setup.sh\n'}
+[4.418424] (open_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/adimas/zed_ros2/install/open_cam/share/open_cam/local_setup.zsh\n'}
+[4.418553] (open_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/adimas/zed_ros2/install/open_cam/share/open_cam/local_setup.dsv\n'}
+[4.418643] (open_cam) StdoutLine: {'line': b'-- Symlinking: /home/adimas/zed_ros2/install/open_cam/share/open_cam/package.dsv\n'}
+[4.421167] (open_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/adimas/zed_ros2/install/open_cam/share/ament_index/resource_index/packages/open_cam\n'}
+[4.421319] (open_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/adimas/zed_ros2/install/open_cam/share/open_cam/cmake/open_camConfig.cmake\n'}
+[4.421419] (open_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/adimas/zed_ros2/install/open_cam/share/open_cam/cmake/open_camConfig-version.cmake\n'}
+[4.421548] (open_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/adimas/zed_ros2/install/open_cam/share/open_cam/package.xml\n'}
+[4.422380] (open_cam) CommandEnded: {'returncode': 0}
+[4.454388] (open_cam) JobEnded: {'identifier': 'open_cam', 'rc': 0}
+[4.455111] (-) EventReactorShutdown: {}

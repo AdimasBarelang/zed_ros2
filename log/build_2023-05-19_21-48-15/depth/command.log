@@ -1,0 +1,6 @@
+Invoking command in '/home/adimas/zed_ros2/build/depth': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/adimas/zed_ros2/src/depth -DCMAKE_INSTALL_PREFIX=/home/adimas/zed_ros2/install/depth
+Invoked command in '/home/adimas/zed_ros2/build/depth' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/adimas/zed_ros2/src/depth -DCMAKE_INSTALL_PREFIX=/home/adimas/zed_ros2/install/depth
+Invoking command in '/home/adimas/zed_ros2/build/depth': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/adimas/zed_ros2/build/depth -- -j8 -l8
+Invoked command in '/home/adimas/zed_ros2/build/depth' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/adimas/zed_ros2/build/depth -- -j8 -l8
+Invoking command in '/home/adimas/zed_ros2/build/depth': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/adimas/zed_ros2/build/depth
+Invoked command in '/home/adimas/zed_ros2/build/depth' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/adimas/zed_ros2/build/depth

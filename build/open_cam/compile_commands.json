@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/adimas/zed_ros2/build/open_cam",
+  "command": "/usr/bin/c++ -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DSPDLOG_COMPILED_LIB -I/usr/local/cuda-12.1/include -I/usr/local/zed/include -I/home/adimas/zed_ros2/src/open_cam/src -isystem /home/adimas/zed_ros2/install/darknet_ros_msgs/include -isystem /opt/ros/foxy/include -isystem /usr/local/include/opencv4 -std=gnu++14 -Wall -Wextra -Wpedantic -o CMakeFiles/open_cam.dir/src/main.cpp.o -c /home/adimas/zed_ros2/src/open_cam/src/main.cpp",
+  "file": "/home/adimas/zed_ros2/src/open_cam/src/main.cpp",
+  "output": "CMakeFiles/open_cam.dir/src/main.cpp.o"
+}
+]

@@ -1,0 +1,53 @@
+[0.010s] Invoking command in '/home/adimas/zed_ros2/build/open_cam': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/adimas/zed_ros2/src/open_cam -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/adimas/zed_ros2/install/open_cam
+[0.086s] -- The C compiler identification is GNU 9.4.0
+[0.145s] -- The CXX compiler identification is GNU 9.4.0
+[0.152s] -- Detecting C compiler ABI info
+[0.191s] -- Detecting C compiler ABI info - done
+[0.199s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.199s] -- Detecting C compile features
+[0.200s] -- Detecting C compile features - done
+[0.202s] -- Detecting CXX compiler ABI info
+[0.250s] -- Detecting CXX compiler ABI info - done
+[0.258s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.258s] -- Detecting CXX compile features
+[0.259s] -- Detecting CXX compile features - done
+[0.260s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.278s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.278s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.418s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.433s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.463s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.467s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.511s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.527s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.576s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.614s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.615s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.616s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.659s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.660s] -- Looking for pthread_create in pthreads
+[0.692s] -- Looking for pthread_create in pthreads - not found
+[0.692s] -- Looking for pthread_create in pthread
+[0.732s] -- Looking for pthread_create in pthread - found
+[0.733s] -- Found Threads: TRUE  
+[0.836s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[0.933s] -- Found CUDA: /usr/local/cuda-12.1 (found suitable exact version "12.1") 
+[0.941s] -- Found OpenCV: /usr/local (found version "4.7.0") 
+[0.944s] -- Looking for sgemm_
+[0.983s] -- Looking for sgemm_ - not found
+[1.001s] -- Looking for sgemm_
+[1.062s] -- Looking for sgemm_ - found
+[1.062s] -- Found BLAS: /usr/lib/x86_64-linux-gnu/libopenblas.so  
+[1.068s] -- Found CUDA: /usr/local/cuda-12.1 (found suitable version "12.1", minimum required is "12") 
+[1.094s] -- Found CUDA: /usr/local/cuda-12.1 (found version "12.1") 
+[1.096s] -- Found ament_cmake_auto: 0.9.11 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+[1.157s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.172s] [31mCMake Error at /opt/ros/foxy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[1.172s]   ament_target_dependencies() the passed package name '3' was not found
+[1.172s]   before
+[1.172s] Call Stack (most recent call first):
+[1.172s]   CMakeLists.txt:39 (ament_target_dependencies)
+[1.172s] 
+[1.172s] [0m
+[1.172s] -- Configuring incomplete, errors occurred!
+[1.178s] Invoked command in '/home/adimas/zed_ros2/build/open_cam' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/adimas/zed_ros2/src/open_cam -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/adimas/zed_ros2/install/open_cam

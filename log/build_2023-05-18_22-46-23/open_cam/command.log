@@ -1,0 +1,2 @@
+Invoking command in '/home/adimas/zed_ros2/build/open_cam': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/adimas/zed_ros2/src/open_cam -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/adimas/zed_ros2/install/open_cam
+Invoked command in '/home/adimas/zed_ros2/build/open_cam' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/adimas/zed_ros2/src/open_cam -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/adimas/zed_ros2/install/open_cam

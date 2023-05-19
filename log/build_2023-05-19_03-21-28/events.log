@@ -1,0 +1,90 @@
+[0.000000] (-) TimerEvent: {}
+[0.000816] (open_cam) JobQueued: {'identifier': 'open_cam', 'dependencies': OrderedDict()}
+[0.000865] (open_cam) JobStarted: {'identifier': 'open_cam'}
+[0.009894] (open_cam) JobProgress: {'identifier': 'open_cam', 'progress': 'cmake'}
+[0.011297] (open_cam) JobProgress: {'identifier': 'open_cam', 'progress': 'build'}
+[0.011347] (open_cam) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/adimas/zed_ros2/build/open_cam', '--', '-j8', '-l8'], 'cwd': '/home/adimas/zed_ros2/build/open_cam', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'adimas'), ('LC_TIME', 'id_ID.UTF-8'), ('SSH_AGENT_PID', '1891'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-12.1/lib64:'), ('HOME', '/home/adimas'), ('OLDPWD', '/home/adimas/zed_ros2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '1661'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3852'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('QT_QPA_PLATFORMTHEME', 'appmenu-qt5'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/adimas/zed_ros2/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'adimas'), ('JOURNAL_STREAM', '9:44238'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'adimas'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('GTK2_MODULES', 'overlay-scrollbar'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-12.1/bin:/home/adimas/bin:/home/adimas/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/FUTURA:@/tmp/.ICE-unix/1926,unix/FUTURA:/tmp/.ICE-unix/1926'), ('INVOCATION_ID', '58d92dc817f24cfa86416b52447522d7'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/adimas/zed_ros2/install/open_cam:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:adfeac3a-6ee3-4563-ad40-8caabadfc713'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/adimas/zed_ros2/build/open_cam'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/adimas/zed_ros2/install/open_cam:/opt/ros/foxy')]), 'shell': False}
+[0.041875] (open_cam) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/open_cam.dir/src/main.cpp.o\x1b[0m\n'}
+[0.100041] (-) TimerEvent: {}
+[0.200424] (-) TimerEvent: {}
+[0.300678] (-) TimerEvent: {}
+[0.400984] (-) TimerEvent: {}
+[0.501235] (-) TimerEvent: {}
+[0.601514] (-) TimerEvent: {}
+[0.701782] (-) TimerEvent: {}
+[0.802073] (-) TimerEvent: {}
+[0.902368] (-) TimerEvent: {}
+[1.002657] (-) TimerEvent: {}
+[1.102971] (-) TimerEvent: {}
+[1.203297] (-) TimerEvent: {}
+[1.303625] (-) TimerEvent: {}
+[1.403955] (-) TimerEvent: {}
+[1.504255] (-) TimerEvent: {}
+[1.604550] (-) TimerEvent: {}
+[1.704869] (-) TimerEvent: {}
+[1.805177] (-) TimerEvent: {}
+[1.870974] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adimas/zed_ros2/src/open_cam/src/main.cpp:8:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksl\x1b[m\x1b[K\xe2\x80\x99 is not a namespace-name\n'}
+[1.871141] (open_cam) StderrLine: {'line': b'    8 | using namespace \x1b[01;31m\x1b[Ksl\x1b[m\x1b[K;\n'}
+[1.871199] (open_cam) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.887322] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adimas/zed_ros2/src/open_cam/src/main.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ZedCameraNode::captureImage()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.887494] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adimas/zed_ros2/src/open_cam/src/main.cpp:26:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCamera\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.887551] (open_cam) StderrLine: {'line': b'   26 |     \x1b[01;31m\x1b[KCamera\x1b[m\x1b[K zed;\n'}
+[1.887601] (open_cam) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.887649] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adimas/zed_ros2/src/open_cam/src/main.cpp:28:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksl\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.887696] (open_cam) StderrLine: {'line': b'   28 |     \x1b[01;31m\x1b[Ksl\x1b[m\x1b[K::InitParameters init_parameters;\n'}
+[1.887742] (open_cam) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.890125] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adimas/zed_ros2/src/open_cam/src/main.cpp:29:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kinit_parameters\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kset_parameters\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.890212] (open_cam) StderrLine: {'line': b'   29 |     \x1b[01;31m\x1b[Kinit_parameters\x1b[m\x1b[K.sdk_verbose = true;\n'}
+[1.890266] (open_cam) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.890316] (open_cam) StderrLine: {'line': b'      |     \x1b[32m\x1b[Kset_parameters\x1b[m\x1b[K\n'}
+[1.890362] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adimas/zed_ros2/src/open_cam/src/main.cpp:30:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksl\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.890418] (open_cam) StderrLine: {'line': b'   30 |     init_parameters.camera_resolution= \x1b[01;31m\x1b[Ksl\x1b[m\x1b[K::RESOLUTION::AUTO;\n'}
+[1.890464] (open_cam) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.890508] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adimas/zed_ros2/src/open_cam/src/main.cpp:31:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksl\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.890553] (open_cam) StderrLine: {'line': b'   31 |     init_parameters.depth_mode = \x1b[01;31m\x1b[Ksl\x1b[m\x1b[K::DEPTH_MODE::NONE; // no depth computation required here\n'}
+[1.890599] (open_cam) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.891450] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adimas/zed_ros2/src/open_cam/src/main.cpp:32:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kargc\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.891544] (open_cam) StderrLine: {'line': b'   32 |     parseArgs(\x1b[01;31m\x1b[Kargc\x1b[m\x1b[K,argv, init_parameters);\n'}
+[1.891598] (open_cam) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.892724] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adimas/zed_ros2/src/open_cam/src/main.cpp:32:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kargv\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.892817] (open_cam) StderrLine: {'line': b'   32 |     parseArgs(argc,\x1b[01;31m\x1b[Kargv\x1b[m\x1b[K, init_parameters);\n'}
+[1.892871] (open_cam) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.895360] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adimas/zed_ros2/src/open_cam/src/main.cpp:32:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KparseArgs\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.895455] (open_cam) StderrLine: {'line': b'   32 |     \x1b[01;31m\x1b[KparseArgs\x1b[m\x1b[K(argc,argv, init_parameters);\n'}
+[1.895509] (open_cam) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.896650] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adimas/zed_ros2/src/open_cam/src/main.cpp:37:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kzed\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.896877] (open_cam) StderrLine: {'line': b'   37 |     \x1b[01;31m\x1b[Kzed\x1b[m\x1b[K.retrieveImage(frame, VIEW::LEFT);\n'}
+[1.896949] (open_cam) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.897001] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adimas/zed_ros2/src/open_cam/src/main.cpp:37:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KVIEW\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.897053] (open_cam) StderrLine: {'line': b'   37 |     zed.retrieveImage(frame, \x1b[01;31m\x1b[KVIEW\x1b[m\x1b[K::LEFT);\n'}
+[1.897100] (open_cam) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.897145] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adimas/zed_ros2/src/open_cam/src/main.cpp:38:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass cv::Mat\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KgetHeight\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.897192] (open_cam) StderrLine: {'line': b'   38 |     cv::Mat cvImage = cv::Mat((int) frame.\x1b[01;31m\x1b[KgetHeight\x1b[m\x1b[K(), (int) frame.getWidth(), CV_8UC4, zed_image.getPtr<sl::uchar1>(sl::MEM::CPU));\n'}
+[1.897237] (open_cam) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.897289] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adimas/zed_ros2/src/open_cam/src/main.cpp:38:68:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass cv::Mat\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KgetWidth\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.897338] (open_cam) StderrLine: {'line': b'   38 | cv::Mat cvImage = cv::Mat((int) frame.getHeight(), (int) frame.\x1b[01;31m\x1b[KgetWidth\x1b[m\x1b[K(), CV_8UC4, zed_image.getPtr<sl::uchar1>(sl::MEM::CPU));\n'}
+[1.897383] (open_cam) StderrLine: {'line': b'      |                                                                \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.897429] (open_cam) StderrLine: {'line': b'\n'}
+[1.899353] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adimas/zed_ros2/src/open_cam/src/main.cpp:38:89:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kzed_image\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.899452] (open_cam) StderrLine: {'line': b'   38 | :Mat((int) frame.getHeight(), (int) frame.getWidth(), CV_8UC4, \x1b[01;31m\x1b[Kzed_image\x1b[m\x1b[K.getPtr<sl::uchar1>(sl::MEM::CPU));\n'}
+[1.899510] (open_cam) StderrLine: {'line': b'      |                                                                \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.899560] (open_cam) StderrLine: {'line': b'\n'}
+[1.900506] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adimas/zed_ros2/src/open_cam/src/main.cpp:38:106:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksl\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.900599] (open_cam) StderrLine: {'line': b'   38 | getHeight(), (int) frame.getWidth(), CV_8UC4, zed_image.getPtr<\x1b[01;31m\x1b[Ksl\x1b[m\x1b[K::uchar1>(sl::MEM::CPU));\n'}
+[1.900653] (open_cam) StderrLine: {'line': b'      |                                                                \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.900703] (open_cam) StderrLine: {'line': b'\n'}
+[1.905278] (-) TimerEvent: {}
+[2.005555] (-) TimerEvent: {}
+[2.105884] (-) TimerEvent: {}
+[2.206187] (-) TimerEvent: {}
+[2.306489] (-) TimerEvent: {}
+[2.406788] (-) TimerEvent: {}
+[2.507086] (-) TimerEvent: {}
+[2.607384] (-) TimerEvent: {}
+[2.707694] (-) TimerEvent: {}
+[2.735800] (open_cam) StderrLine: {'line': b'make[2]: *** [CMakeFiles/open_cam.dir/build.make:76: CMakeFiles/open_cam.dir/src/main.cpp.o] Error 1\n'}
+[2.736109] (open_cam) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/open_cam.dir/all] Error 2\n'}
+[2.736318] (open_cam) StderrLine: {'line': b'make: *** [Makefile:146: all] Error 2\n'}
+[2.737259] (open_cam) CommandEnded: {'returncode': 2}
+[2.762638] (open_cam) JobEnded: {'identifier': 'open_cam', 'rc': 2}
+[2.773323] (-) EventReactorShutdown: {}

@@ -1,0 +1,186 @@
+[0.018s] Invoking command in '/home/adimas/zed_ros2/build/depth': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/adimas/zed_ros2/src/depth -DCMAKE_INSTALL_PREFIX=/home/adimas/zed_ros2/install/depth
+[0.102s] -- The C compiler identification is GNU 9.4.0
+[0.163s] -- The CXX compiler identification is GNU 9.4.0
+[0.175s] -- Detecting C compiler ABI info
+[0.218s] -- Detecting C compiler ABI info - done
+[0.226s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.227s] -- Detecting C compile features
+[0.227s] -- Detecting C compile features - done
+[0.231s] -- Detecting CXX compiler ABI info
+[0.280s] -- Detecting CXX compiler ABI info - done
+[0.288s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.288s] -- Detecting CXX compile features
+[0.288s] -- Detecting CXX compile features - done
+[0.290s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.310s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.310s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.477s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.514s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.520s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.577s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.594s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.650s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.694s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.695s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.697s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.743s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.743s] -- Looking for pthread_create in pthreads
+[0.785s] -- Looking for pthread_create in pthreads - not found
+[0.785s] -- Looking for pthread_create in pthread
+[0.830s] -- Looking for pthread_create in pthread - found
+[0.831s] -- Found Threads: TRUE  
+[0.945s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.052s] -- Found CUDA: /usr/local/cuda-12.1 (found suitable exact version "12.1") 
+[1.061s] -- Found OpenCV: /usr/local (found version "4.7.0") 
+[1.062s] -- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)
+[1.078s] -- Looking for sgemm_
+[1.124s] -- Looking for sgemm_ - not found
+[1.144s] -- Looking for sgemm_
+[1.220s] -- Looking for sgemm_ - found
+[1.220s] -- Found BLAS: /usr/lib/x86_64-linux-gnu/libopenblas.so  
+[1.226s] -- Found CUDA: /usr/local/cuda-12.1 (found suitable version "12.1", minimum required is "12") 
+[1.359s] -- Found CUDA: /usr/local/cuda-12.1 (found version "12.1") 
+[1.360s] -- Found ament_cmake_auto: 0.9.11 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+[1.437s] -- Found CUDA: /usr/local/cuda-12.1 (found suitable version "12.1", minimum required is "12") 
+[1.474s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.505s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.506s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.506s] -- Configured cppcheck include dirs: /home/adimas/zed_ros2/src/depth/src
+[1.506s] -- Configured cppcheck exclude dirs and/or files: 
+[1.507s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.507s] -- Configured cpplint exclude dirs and/or files: 
+[1.507s] -- Added test 'lint_cmake' to check CMake code style
+[1.508s] -- Added test 'uncrustify' to check C / C++ code style
+[1.508s] -- Configured uncrustify additional arguments: 
+[1.508s] -- Added test 'xmllint' to check XML markup files
+[1.509s] -- Configuring done (1.5s)
+[1.525s] -- Generating done (0.0s)
+[1.527s] -- Build files have been written to: /home/adimas/zed_ros2/build/depth
+[1.535s] Invoked command in '/home/adimas/zed_ros2/build/depth' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/adimas/zed_ros2/src/depth -DCMAKE_INSTALL_PREFIX=/home/adimas/zed_ros2/install/depth
+[1.537s] Invoking command in '/home/adimas/zed_ros2/build/depth': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/adimas/zed_ros2/build/depth -- -j8 -l8
+[1.556s] [ 50%] [32mBuilding CXX object CMakeFiles/depth.dir/src/main.cpp.o[0m
+[2.006s] In file included from [01m[K/home/adimas/zed_ros2/src/depth/src/main.cpp:1[m[K:
+[2.006s] [01m[K/usr/local/zed/include/sl/Camera.hpp:896:13:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K-Wpedantic[m[K]
+[2.006s]   896 |             [01;35m[K}[m[K;
+[2.006s]       |             [01;35m[K^[m[K
+[2.006s] [01m[K/usr/local/zed/include/sl/Camera.hpp:1049:13:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K-Wpedantic[m[K]
+[2.006s]  1049 |             [01;35m[K}[m[K;
+[2.006s]       |             [01;35m[K^[m[K
+[2.006s] [01m[K/usr/local/zed/include/sl/Camera.hpp:1226:13:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K-Wpedantic[m[K]
+[2.006s]  1226 |             [01;35m[K}[m[K;
+[2.006s]       |             [01;35m[K^[m[K
+[2.007s] [01m[K/usr/local/zed/include/sl/Camera.hpp:1390:13:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K-Wpedantic[m[K]
+[2.007s]  1390 |             [01;35m[K}[m[K;
+[2.007s]       |             [01;35m[K^[m[K
+[2.007s] [01m[K/usr/local/zed/include/sl/Camera.hpp:1394:13:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K-Wpedantic[m[K]
+[2.007s]  1394 |             [01;35m[K}[m[K;
+[2.007s]       |             [01;35m[K^[m[K
+[2.007s] [01m[K/usr/local/zed/include/sl/Camera.hpp:1398:13:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K-Wpedantic[m[K]
+[2.007s]  1398 |             [01;35m[K}[m[K;
+[2.007s]       |             [01;35m[K^[m[K
+[2.008s] [01m[K/usr/local/zed/include/sl/Camera.hpp:1638:13:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K-Wpedantic[m[K]
+[2.008s]  1638 |             [01;35m[K}[m[K;
+[2.008s]       |             [01;35m[K^[m[K
+[2.008s] [01m[K/usr/local/zed/include/sl/Camera.hpp:1642:13:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K-Wpedantic[m[K]
+[2.008s]  1642 |             [01;35m[K}[m[K;
+[2.008s]       |             [01;35m[K^[m[K
+[2.008s] [01m[K/usr/local/zed/include/sl/Camera.hpp:1646:13:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K-Wpedantic[m[K]
+[2.008s]  1646 |             [01;35m[K}[m[K;
+[2.008s]       |             [01;35m[K^[m[K
+[2.011s] [01m[K/usr/local/zed/include/sl/Camera.hpp:[m[K In function ‘[01m[Ksl::Timestamp sl::operator+(sl::Timestamp, const sl::Timestamp&)[m[K’:
+[2.011s] [01m[K/usr/local/zed/include/sl/Camera.hpp:2104:16:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr sl::Timestamp::Timestamp(const sl::Timestamp&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+[2.011s]  2104 |         return [01;35m[Klhs[m[K;
+[2.011s]       |                [01;35m[K^~~[m[K
+[2.011s] [01m[K/usr/local/zed/include/sl/Camera.hpp:2043:20:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Ksl::Timestamp[m[K’ has user-provided ‘[01m[Ksl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)[m[K’
+[2.011s]  2043 |         Timestamp& [01;36m[Koperator[m[K=(Timestamp other) {
+[2.011s]       |                    [01;36m[K^~~~~~~~[m[K
+[2.011s] [01m[K/usr/local/zed/include/sl/Camera.hpp:[m[K In function ‘[01m[Ksl::Timestamp sl::operator-(sl::Timestamp, const sl::Timestamp&)[m[K’:
+[2.011s] [01m[K/usr/local/zed/include/sl/Camera.hpp:2109:16:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr sl::Timestamp::Timestamp(const sl::Timestamp&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+[2.011s]  2109 |         return [01;35m[Klhs[m[K;
+[2.011s]       |                [01;35m[K^~~[m[K
+[2.011s] [01m[K/usr/local/zed/include/sl/Camera.hpp:2043:20:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Ksl::Timestamp[m[K’ has user-provided ‘[01m[Ksl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)[m[K’
+[2.011s]  2043 |         Timestamp& [01;36m[Koperator[m[K=(Timestamp other) {
+[2.011s]       |                    [01;36m[K^~~~~~~~[m[K
+[2.011s] [01m[K/usr/local/zed/include/sl/Camera.hpp:[m[K In function ‘[01m[Ksl::Timestamp sl::operator/(sl::Timestamp, const sl::Timestamp&)[m[K’:
+[2.011s] [01m[K/usr/local/zed/include/sl/Camera.hpp:2114:16:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr sl::Timestamp::Timestamp(const sl::Timestamp&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+[2.011s]  2114 |         return [01;35m[Klhs[m[K;
+[2.011s]       |                [01;35m[K^~~[m[K
+[2.012s] [01m[K/usr/local/zed/include/sl/Camera.hpp:2043:20:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Ksl::Timestamp[m[K’ has user-provided ‘[01m[Ksl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)[m[K’
+[2.012s]  2043 |         Timestamp& [01;36m[Koperator[m[K=(Timestamp other) {
+[2.012s]       |                    [01;36m[K^~~~~~~~[m[K
+[2.012s] [01m[K/usr/local/zed/include/sl/Camera.hpp:[m[K In function ‘[01m[Ksl::Timestamp sl::operator*(sl::Timestamp, const sl::Timestamp&)[m[K’:
+[2.012s] [01m[K/usr/local/zed/include/sl/Camera.hpp:2119:16:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr sl::Timestamp::Timestamp(const sl::Timestamp&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+[2.012s]  2119 |         return [01;35m[Klhs[m[K;
+[2.012s]       |                [01;35m[K^~~[m[K
+[2.012s] [01m[K/usr/local/zed/include/sl/Camera.hpp:2043:20:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Ksl::Timestamp[m[K’ has user-provided ‘[01m[Ksl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)[m[K’
+[2.012s]  2043 |         Timestamp& [01;36m[Koperator[m[K=(Timestamp other) {
+[2.012s]       |                    [01;36m[K^~~~~~~~[m[K
+[2.012s] [01m[K/usr/local/zed/include/sl/Camera.hpp:[m[K In function ‘[01m[Ksl::Timestamp sl::getCurrentTimeStamp()[m[K’:
+[2.012s] [01m[K/usr/local/zed/include/sl/Camera.hpp:2153:16:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr sl::Timestamp::Timestamp(const sl::Timestamp&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+[2.012s]  2153 |         return [01;35m[Kcurrent_ts[m[K;
+[2.012s]       |                [01;35m[K^~~~~~~~~~[m[K
+[2.012s] [01m[K/usr/local/zed/include/sl/Camera.hpp:2043:20:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Ksl::Timestamp[m[K’ has user-provided ‘[01m[Ksl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)[m[K’
+[2.012s]  2043 |         Timestamp& [01;36m[Koperator[m[K=(Timestamp other) {
+[2.012s]       |                    [01;36m[K^~~~~~~~[m[K
+[2.012s] [01m[K/usr/local/zed/include/sl/Camera.hpp:[m[K In function ‘[01m[KcudaError sl::__cudaSafeCall(cudaError, const char*, const char*, int)[m[K’:
+[2.012s] [01m[K/usr/local/zed/include/sl/Camera.hpp:2160:89:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfile[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.013s]  2160 | or __cudaSafeCall(cudaError err, const char *func, [01;35m[Kconst char *file[m[K, const int line) {
+[2.013s]       |                                                    [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[2.013s] 
+[2.013s] [01m[K/usr/local/zed/include/sl/Camera.hpp:2160:105:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kline[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.013s]  2160 | l(cudaError err, const char *func, const char *file, [01;35m[Kconst int line[m[K) {
+[2.013s]       |                                                      [01;35m[K~~~~~~~~~~^~~~[m[K
+[2.013s] 
+[2.015s] In file included from [01m[K/home/adimas/zed_ros2/src/depth/src/main.cpp:1[m[K:
+[2.015s] [01m[K/usr/local/zed/include/sl/Camera.hpp:[m[K In member function ‘[01m[Ksl::CalibrationParameters sl::CalibrationParameters::scale(sl::Resolution)[m[K’:
+[2.015s] [01m[K/usr/local/zed/include/sl/Camera.hpp:3178:62:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Ksl::Transform& sl::Transform::operator=(const sl::Transform&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+[2.015s]  3178 |             output_calibration_parameters.stereo_transform = [01;35m[Kstereo_transform[m[K;
+[2.015s]       |                                                              [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[2.015s] In file included from [01m[K/home/adimas/zed_ros2/src/depth/src/main.cpp:1[m[K:
+[2.015s] [01m[K/usr/local/zed/include/sl/Camera.hpp:3023:9:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Ksl::Transform[m[K’ has user-provided ‘[01m[Ksl::Transform::Transform(const sl::Transform&)[m[K’
+[2.015s]  3023 |         [01;36m[KTransform[m[K(const Transform &motion);
+[2.015s]       |         [01;36m[K^~~~~~~~~[m[K
+[2.015s] [01m[K/usr/local/zed/include/sl/Camera.hpp:[m[K In member function ‘[01m[Ksl::Transform& sl::Transform::operator=(const sl::Transform&)[m[K’:
+[2.015s] [01m[K/usr/local/zed/include/sl/Camera.hpp:3012:60:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Ksl::Matrix4f& sl::Matrix4f::operator=(const sl::Matrix4f&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+[2.015s]  3012 |     class /*@cond SHOWHIDDEN*/ SL_CORE_EXPORT /*@endcond*/ [01;35m[KTransform[m[K : public Matrix4f {
+[2.015s]       |                                                            [01;35m[K^~~~~~~~~[m[K
+[2.015s] [01m[K/usr/local/zed/include/sl/Camera.hpp:1069:9:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Ksl::Matrix4f[m[K’ has user-provided ‘[01m[Ksl::Matrix4f::Matrix4f(const sl::Matrix4f&)[m[K’
+[2.015s]  1069 |         [01;36m[KMatrix4f[m[K(const Matrix4f &mat);
+[2.015s]       |         [01;36m[K^~~~~~~~[m[K
+[2.015s] In file included from [01m[K/home/adimas/zed_ros2/src/depth/src/main.cpp:1[m[K:
+[2.016s] [01m[K/usr/local/zed/include/sl/Camera.hpp:[m[K In member function ‘[01m[Ksl::CalibrationParameters sl::CalibrationParameters::scale(sl::Resolution)[m[K’:
+[2.016s] [01m[K/usr/local/zed/include/sl/Camera.hpp:3178:62:[m[K [01;36m[Knote: [m[Ksynthesized method ‘[01m[Ksl::Transform& sl::Transform::operator=(const sl::Transform&)[m[K’ first required here
+[2.016s]  3178 |             output_calibration_parameters.stereo_transform = [01;36m[Kstereo_transform[m[K;
+[2.016s]       |                                                              [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[2.099s] In file included from [01m[K/home/adimas/zed_ros2/src/depth/src/main.cpp:1[m[K:
+[2.099s] [01m[K/usr/local/zed/include/sl/Camera.hpp:[m[K At global scope:
+[2.099s] [01m[K/usr/local/zed/include/sl/Camera.hpp:6254:12:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K-Wignored-qualifiers[m[K]
+[2.099s]  6254 |     inline [01;35m[Kconst[m[K void /*@cond SHOWHIDDEN*/SL_SDK_EXPORT/*@endcond*/ getZEDSDKBuildVersion(int &major, int& minor, int& patch) {
+[2.100s]       |            [01;35m[K^~~~~[m[K
+[2.102s] In file included from [01m[K/home/adimas/zed_ros2/src/depth/src/main.cpp:1[m[K:
+[2.102s] [01m[K/usr/local/zed/include/sl/Camera.hpp:6640:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[2.102s]  6640 | }[01;35m[K;[m[K
+[2.102s]       |  [01;35m[K^[m[K
+[4.518s] [100%] [32m[1mLinking CXX executable depth[0m
+[4.783s] [100%] Built target depth
+[4.788s] Invoked command in '/home/adimas/zed_ros2/build/depth' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/adimas/zed_ros2/build/depth -- -j8 -l8
+[4.809s] Invoking command in '/home/adimas/zed_ros2/build/depth': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/adimas/zed_ros2/build/depth
+[4.811s] -- Install configuration: ""
+[4.811s] -- Installing: /home/adimas/zed_ros2/install/depth/bin/depth
+[4.812s] -- Set runtime path of "/home/adimas/zed_ros2/install/depth/bin/depth" to ""
+[4.812s] -- Installing: /home/adimas/zed_ros2/install/depth/share/ament_index/resource_index/package_run_dependencies/depth
+[4.812s] -- Installing: /home/adimas/zed_ros2/install/depth/share/ament_index/resource_index/parent_prefix_path/depth
+[4.812s] -- Installing: /home/adimas/zed_ros2/install/depth/share/depth/environment/ament_prefix_path.sh
+[4.812s] -- Installing: /home/adimas/zed_ros2/install/depth/share/depth/environment/ament_prefix_path.dsv
+[4.813s] -- Installing: /home/adimas/zed_ros2/install/depth/share/depth/environment/path.sh
+[4.813s] -- Installing: /home/adimas/zed_ros2/install/depth/share/depth/environment/path.dsv
+[4.813s] -- Installing: /home/adimas/zed_ros2/install/depth/share/depth/local_setup.bash
+[4.813s] -- Installing: /home/adimas/zed_ros2/install/depth/share/depth/local_setup.sh
+[4.813s] -- Installing: /home/adimas/zed_ros2/install/depth/share/depth/local_setup.zsh
+[4.813s] -- Installing: /home/adimas/zed_ros2/install/depth/share/depth/local_setup.dsv
+[4.813s] -- Installing: /home/adimas/zed_ros2/install/depth/share/depth/package.dsv
+[4.813s] -- Installing: /home/adimas/zed_ros2/install/depth/share/ament_index/resource_index/packages/depth
+[4.813s] -- Installing: /home/adimas/zed_ros2/install/depth/share/depth/cmake/depthConfig.cmake
+[4.813s] -- Installing: /home/adimas/zed_ros2/install/depth/share/depth/cmake/depthConfig-version.cmake
+[4.813s] -- Installing: /home/adimas/zed_ros2/install/depth/share/depth/package.xml
+[4.815s] Invoked command in '/home/adimas/zed_ros2/build/depth' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/adimas/zed_ros2/build/depth

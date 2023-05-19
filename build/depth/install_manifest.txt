@@ -1,0 +1,16 @@
+/home/adimas/zed_ros2/install/depth/bin/depth
+/home/adimas/zed_ros2/install/depth/share/ament_index/resource_index/package_run_dependencies/depth
+/home/adimas/zed_ros2/install/depth/share/ament_index/resource_index/parent_prefix_path/depth
+/home/adimas/zed_ros2/install/depth/share/depth/environment/ament_prefix_path.sh
+/home/adimas/zed_ros2/install/depth/share/depth/environment/ament_prefix_path.dsv
+/home/adimas/zed_ros2/install/depth/share/depth/environment/path.sh
+/home/adimas/zed_ros2/install/depth/share/depth/environment/path.dsv
+/home/adimas/zed_ros2/install/depth/share/depth/local_setup.bash
+/home/adimas/zed_ros2/install/depth/share/depth/local_setup.sh
+/home/adimas/zed_ros2/install/depth/share/depth/local_setup.zsh
+/home/adimas/zed_ros2/install/depth/share/depth/local_setup.dsv
+/home/adimas/zed_ros2/install/depth/share/depth/package.dsv
+/home/adimas/zed_ros2/install/depth/share/ament_index/resource_index/packages/depth
+/home/adimas/zed_ros2/install/depth/share/depth/cmake/depthConfig.cmake
+/home/adimas/zed_ros2/install/depth/share/depth/cmake/depthConfig-version.cmake
+/home/adimas/zed_ros2/install/depth/share/depth/package.xml

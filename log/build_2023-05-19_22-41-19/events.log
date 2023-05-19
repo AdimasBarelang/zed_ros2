@@ -1,0 +1,352 @@
+[0.000000] (-) TimerEvent: {}
+[0.000208] (darknet_ros_msgs) JobQueued: {'identifier': 'darknet_ros_msgs', 'dependencies': OrderedDict()}
+[0.000270] (open_cam) JobQueued: {'identifier': 'open_cam', 'dependencies': OrderedDict([('darknet_ros_msgs', '/home/adimas/zed_ros2/install/darknet_ros_msgs')])}
+[0.000407] (darknet_ros_msgs) JobStarted: {'identifier': 'darknet_ros_msgs'}
+[0.010066] (darknet_ros_msgs) JobProgress: {'identifier': 'darknet_ros_msgs', 'progress': 'cmake'}
+[0.010623] (darknet_ros_msgs) JobProgress: {'identifier': 'darknet_ros_msgs', 'progress': 'build'}
+[0.011153] (darknet_ros_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/adimas/zed_ros2/build/darknet_ros_msgs', '--', '-j8', '-l8'], 'cwd': '/home/adimas/zed_ros2/build/darknet_ros_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'adimas'), ('LC_TIME', 'id_ID.UTF-8'), ('SSH_AGENT_PID', '2025'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-12.1/lib64:'), ('HOME', '/home/adimas'), ('OLDPWD', '/home/adimas'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '1786'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '13915'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('QT_QPA_PLATFORMTHEME', 'appmenu-qt5'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/adimas/zed_ros2/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'adimas'), ('JOURNAL_STREAM', '9:42714'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'adimas'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('GTK2_MODULES', 'overlay-scrollbar'), ('WINDOWPATH', '2'), ('PATH', '/home/adimas/zed_ros2/install/depth/bin:/opt/ros/foxy/bin:/usr/local/cuda-12.1/bin:/home/adimas/bin:/home/adimas/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/FUTURA:@/tmp/.ICE-unix/2060,unix/FUTURA:/tmp/.ICE-unix/2060'), ('INVOCATION_ID', '1191f3eb196d4328ba2dcb3c9e00d5c5'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/adimas/zed_ros2/install/open_cam:/home/adimas/zed_ros2/install/depth:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:adfeac3a-6ee3-4563-ad40-8caabadfc713'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/adimas/zed_ros2/build/darknet_ros_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/adimas/zed_ros2/install/open_cam:/home/adimas/zed_ros2/install/depth:/opt/ros/foxy')]), 'shell': False}
+[0.032630] (darknet_ros_msgs) StdoutLine: {'line': b'[  1%] Built target darknet_ros_msgs__cpp\n'}
+[0.034161] (darknet_ros_msgs) StdoutLine: {'line': b'[ 12%] Built target darknet_ros_msgs__rosidl_generator_c\n'}
+[0.043822] (darknet_ros_msgs) StdoutLine: {'line': b'[ 23%] Built target darknet_ros_msgs__rosidl_typesupport_c\n'}
+[0.045609] (darknet_ros_msgs) StdoutLine: {'line': b'[ 36%] Built target darknet_ros_msgs__rosidl_typesupport_cpp\n'}
+[0.045861] (darknet_ros_msgs) StdoutLine: {'line': b'[ 45%] Built target darknet_ros_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.046001] (darknet_ros_msgs) StdoutLine: {'line': b'[ 56%] Built target darknet_ros_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.046198] (darknet_ros_msgs) StdoutLine: {'line': b'[ 67%] Built target darknet_ros_msgs__rosidl_typesupport_introspection_c\n'}
+[0.055810] (darknet_ros_msgs) StdoutLine: {'line': b'[ 78%] Built target darknet_ros_msgs__rosidl_typesupport_fastrtps_c\n'}
+[0.062254] (darknet_ros_msgs) StdoutLine: {'line': b'[ 78%] Built target darknet_ros_msgs\n'}
+[0.069172] (darknet_ros_msgs) StdoutLine: {'line': b'[ 80%] Built target darknet_ros_msgs__py\n'}
+[0.077582] (darknet_ros_msgs) StdoutLine: {'line': b'[ 89%] Built target darknet_ros_msgs__python\n'}
+[0.086642] (darknet_ros_msgs) StdoutLine: {'line': b'[ 92%] Built target darknet_ros_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[0.086865] (darknet_ros_msgs) StdoutLine: {'line': b'[100%] Built target darknet_ros_msgs__rosidl_typesupport_c__pyext\n'}
+[0.086929] (darknet_ros_msgs) StdoutLine: {'line': b'[100%] Built target darknet_ros_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.090674] (darknet_ros_msgs) CommandEnded: {'returncode': 0}
+[0.099885] (-) TimerEvent: {}
+[0.143159] (darknet_ros_msgs) JobProgress: {'identifier': 'darknet_ros_msgs', 'progress': 'install'}
+[0.147233] (darknet_ros_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/adimas/zed_ros2/build/darknet_ros_msgs'], 'cwd': '/home/adimas/zed_ros2/build/darknet_ros_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'adimas'), ('LC_TIME', 'id_ID.UTF-8'), ('SSH_AGENT_PID', '2025'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-12.1/lib64:'), ('HOME', '/home/adimas'), ('OLDPWD', '/home/adimas'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '1786'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '13915'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('QT_QPA_PLATFORMTHEME', 'appmenu-qt5'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/adimas/zed_ros2/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'adimas'), ('JOURNAL_STREAM', '9:42714'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'adimas'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('GTK2_MODULES', 'overlay-scrollbar'), ('WINDOWPATH', '2'), ('PATH', '/home/adimas/zed_ros2/install/depth/bin:/opt/ros/foxy/bin:/usr/local/cuda-12.1/bin:/home/adimas/bin:/home/adimas/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/FUTURA:@/tmp/.ICE-unix/2060,unix/FUTURA:/tmp/.ICE-unix/2060'), ('INVOCATION_ID', '1191f3eb196d4328ba2dcb3c9e00d5c5'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/adimas/zed_ros2/install/open_cam:/home/adimas/zed_ros2/install/depth:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:adfeac3a-6ee3-4563-ad40-8caabadfc713'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/adimas/zed_ros2/build/darknet_ros_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/adimas/zed_ros2/install/open_cam:/home/adimas/zed_ros2/install/depth:/opt/ros/foxy')]), 'shell': False}
+[0.151294] (darknet_ros_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.151531] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/share/ament_index/resource_index/rosidl_interfaces/darknet_ros_msgs\n'}
+[0.151657] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs\n'}
+[0.151739] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/action\n'}
+[0.151793] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/action/detail\n'}
+[0.151862] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/action/detail/check_for_objects__type_support.h\n'}
+[0.151916] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/action/detail/check_for_objects__functions.h\n'}
+[0.152036] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/action/detail/check_for_objects__functions.c\n'}
+[0.152139] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/action/detail/check_for_objects__struct.h\n'}
+[0.152200] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/action/check_for_objects.h\n'}
+[0.152251] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/msg\n'}
+[0.152300] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/bounding_boxes.h\n'}
+[0.152348] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/bounding_box.h\n'}
+[0.152420] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.152470] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/object_count.h\n'}
+[0.152572] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail\n'}
+[0.152682] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail/bounding_boxes__type_support.h\n'}
+[0.152733] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail/object_count__functions.h\n'}
+[0.152798] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail/bounding_box__functions.c\n'}
+[0.152850] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail/object_count__functions.c\n'}
+[0.152958] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail/object_count__type_support.h\n'}
+[0.153072] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail/bounding_boxes__functions.c\n'}
+[0.153127] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail/bounding_boxes__functions.h\n'}
+[0.153190] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail/bounding_box__functions.h\n'}
+[0.153244] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail/bounding_box__type_support.h\n'}
+[0.153310] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail/object_count__struct.h\n'}
+[0.153362] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail/bounding_boxes__struct.h\n'}
+[0.153476] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail/bounding_box__struct.h\n'}
+[0.153615] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/share/darknet_ros_msgs/environment/library_path.sh\n'}
+[0.153740] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/share/darknet_ros_msgs/environment/library_path.dsv\n'}
+[0.153837] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/lib/libdarknet_ros_msgs__rosidl_generator_c.so\n'}
+[0.153889] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs\n'}
+[0.153954] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/action\n'}
+[0.154005] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/action/detail\n'}
+[0.154057] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/action/detail/check_for_objects__rosidl_typesupport_fastrtps_c.h\n'}
+[0.154122] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/msg\n'}
+[0.154203] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail\n'}
+[0.154266] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail/bounding_box__rosidl_typesupport_fastrtps_c.h\n'}
+[0.154317] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail/bounding_boxes__rosidl_typesupport_fastrtps_c.h\n'}
+[0.154366] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail/object_count__rosidl_typesupport_fastrtps_c.h\n'}
+[0.154415] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.154465] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/lib/libdarknet_ros_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[0.154514] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs\n'}
+[0.154564] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/action\n'}
+[0.154613] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/action/detail\n'}
+[0.154663] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/action/detail/check_for_objects__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.154712] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/action/detail/dds_fastrtps\n'}
+[0.154761] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/msg\n'}
+[0.154814] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.154863] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail\n'}
+[0.154912] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail/object_count__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.154961] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail/dds_fastrtps\n'}
+[0.155010] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail/bounding_boxes__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.155062] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail/bounding_box__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.155112] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/lib/libdarknet_ros_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.155160] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs\n'}
+[0.155209] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/action\n'}
+[0.155257] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/action/detail\n'}
+[0.155306] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/action/detail/check_for_objects__type_support.c\n'}
+[0.155354] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/action/detail/check_for_objects__rosidl_typesupport_introspection_c.h\n'}
+[0.155403] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/msg\n'}
+[0.155451] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.155500] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail\n'}
+[0.155554] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail/bounding_box__rosidl_typesupport_introspection_c.h\n'}
+[0.155604] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail/object_count__type_support.c\n'}
+[0.155652] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail/bounding_box__type_support.c\n'}
+[0.155701] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail/object_count__rosidl_typesupport_introspection_c.h\n'}
+[0.155749] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail/bounding_boxes__type_support.c\n'}
+[0.155798] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail/bounding_boxes__rosidl_typesupport_introspection_c.h\n'}
+[0.155847] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/lib/libdarknet_ros_msgs__rosidl_typesupport_introspection_c.so\n'}
+[0.155898] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/lib/libdarknet_ros_msgs__rosidl_typesupport_c.so\n'}
+[0.155947] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs\n'}
+[0.155995] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/action\n'}
+[0.156044] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/action/check_for_objects.hpp\n'}
+[0.156108] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/action/detail\n'}
+[0.156159] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/action/detail/check_for_objects__traits.hpp\n'}
+[0.156208] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/action/detail/check_for_objects__builder.hpp\n'}
+[0.156258] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/action/detail/check_for_objects__struct.hpp\n'}
+[0.156307] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/msg\n'}
+[0.156355] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/object_count.hpp\n'}
+[0.156404] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/bounding_box.hpp\n'}
+[0.156452] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/bounding_boxes.hpp\n'}
+[0.156500] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail\n'}
+[0.156548] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail/bounding_boxes__struct.hpp\n'}
+[0.156597] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail/bounding_boxes__traits.hpp\n'}
+[0.156649] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail/object_count__struct.hpp\n'}
+[0.156698] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail/bounding_box__builder.hpp\n'}
+[0.156747] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail/object_count__builder.hpp\n'}
+[0.156796] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail/bounding_boxes__builder.hpp\n'}
+[0.156845] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail/object_count__traits.hpp\n'}
+[0.156894] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail/bounding_box__struct.hpp\n'}
+[0.156942] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail/bounding_box__traits.hpp\n'}
+[0.156991] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs\n'}
+[0.157039] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/action\n'}
+[0.157091] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/action/detail\n'}
+[0.157138] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/action/detail/check_for_objects__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.157187] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/action/detail/check_for_objects__type_support.cpp\n'}
+[0.157235] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/msg\n'}
+[0.157289] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail\n'}
+[0.157337] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail/object_count__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.157386] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail/bounding_box__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.157436] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail/bounding_boxes__type_support.cpp\n'}
+[0.157485] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail/object_count__type_support.cpp\n'}
+[0.157534] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail/bounding_boxes__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.157582] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail/bounding_box__type_support.cpp\n'}
+[0.157630] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/lib/libdarknet_ros_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[0.157678] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/lib/libdarknet_ros_msgs__rosidl_typesupport_cpp.so\n'}
+[0.157726] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/share/darknet_ros_msgs/environment/pythonpath.sh\n'}
+[0.157774] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/share/darknet_ros_msgs/environment/pythonpath.dsv\n'}
+[0.157822] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/lib/python3.8/site-packages/darknet_ros_msgs/__init__.py\n'}
+[0.178347] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/lib/python3.8/site-packages/darknet_ros_msgs/msg\n'}
+[0.178606] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/lib/python3.8/site-packages/darknet_ros_msgs/msg/_bounding_box.py\n'}
+[0.178691] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/lib/python3.8/site-packages/darknet_ros_msgs/msg/_bounding_boxes.py\n'}
+[0.178749] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/lib/python3.8/site-packages/darknet_ros_msgs/msg/__init__.py\n'}
+[0.178801] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/lib/python3.8/site-packages/darknet_ros_msgs/msg/_bounding_box_s.c\n'}
+[0.178854] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/lib/python3.8/site-packages/darknet_ros_msgs/msg/_object_count_s.c\n'}
+[0.178925] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/lib/python3.8/site-packages/darknet_ros_msgs/msg/_object_count.py\n'}
+[0.178979] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/lib/python3.8/site-packages/darknet_ros_msgs/msg/_bounding_boxes_s.c\n'}
+[0.179030] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/lib/python3.8/site-packages/darknet_ros_msgs/action\n'}
+[0.179086] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/lib/python3.8/site-packages/darknet_ros_msgs/action/_check_for_objects_s.c\n'}
+[0.179141] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/lib/python3.8/site-packages/darknet_ros_msgs/action/__init__.py\n'}
+[0.179196] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/lib/python3.8/site-packages/darknet_ros_msgs/action/_check_for_objects.py\n'}
+[0.179250] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/lib/python3.8/site-packages/darknet_ros_msgs/darknet_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[0.179305] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/lib/python3.8/site-packages/darknet_ros_msgs/darknet_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[0.179393] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/lib/python3.8/site-packages/darknet_ros_msgs/darknet_ros_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[0.179482] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/lib/libdarknet_ros_msgs__python.so\n'}
+[0.179536] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/share/darknet_ros_msgs/msg/BoundingBox.idl\n'}
+[0.179590] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/share/darknet_ros_msgs/msg/BoundingBoxes.idl\n'}
+[0.179672] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/share/darknet_ros_msgs/msg/ObjectCount.idl\n'}
+[0.179789] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/share/darknet_ros_msgs/action/CheckForObjects.idl\n'}
+[0.179844] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/share/darknet_ros_msgs/msg/BoundingBox.msg\n'}
+[0.179898] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/share/darknet_ros_msgs/msg/BoundingBoxes.msg\n'}
+[0.179952] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/share/darknet_ros_msgs/msg/ObjectCount.msg\n'}
+[0.180006] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/share/darknet_ros_msgs/action/CheckForObjects.action\n'}
+[0.180070] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/share/ament_index/resource_index/package_run_dependencies/darknet_ros_msgs\n'}
+[0.180190] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/share/ament_index/resource_index/parent_prefix_path/darknet_ros_msgs\n'}
+[0.180246] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/share/darknet_ros_msgs/environment/ament_prefix_path.sh\n'}
+[0.180300] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/share/darknet_ros_msgs/environment/ament_prefix_path.dsv\n'}
+[0.180354] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/share/darknet_ros_msgs/environment/path.sh\n'}
+[0.180429] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/share/darknet_ros_msgs/environment/path.dsv\n'}
+[0.180484] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/share/darknet_ros_msgs/local_setup.bash\n'}
+[0.180538] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/share/darknet_ros_msgs/local_setup.sh\n'}
+[0.180593] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/share/darknet_ros_msgs/local_setup.zsh\n'}
+[0.180647] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/share/darknet_ros_msgs/local_setup.dsv\n'}
+[0.180701] (darknet_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/adimas/zed_ros2/install/darknet_ros_msgs/share/darknet_ros_msgs/package.dsv\n'}
+[0.180755] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/share/ament_index/resource_index/packages/darknet_ros_msgs\n'}
+[0.180847] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/share/darknet_ros_msgs/cmake/darknet_ros_msgs__rosidl_generator_cExport.cmake\n'}
+[0.180950] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/share/darknet_ros_msgs/cmake/darknet_ros_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.181007] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/share/darknet_ros_msgs/cmake/darknet_ros_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.181062] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/share/darknet_ros_msgs/cmake/darknet_ros_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.181116] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/share/darknet_ros_msgs/cmake/darknet_ros_msgs__rosidl_typesupport_cExport.cmake\n'}
+[0.181171] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/share/darknet_ros_msgs/cmake/darknet_ros_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.181225] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/share/darknet_ros_msgs/cmake/darknet_ros_msgs__rosidl_generator_cppExport.cmake\n'}
+[0.181280] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/share/darknet_ros_msgs/cmake/darknet_ros_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.181334] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/share/darknet_ros_msgs/cmake/darknet_ros_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.181387] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/share/darknet_ros_msgs/cmake/darknet_ros_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[0.181441] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/share/darknet_ros_msgs/cmake/darknet_ros_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.181494] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/share/darknet_ros_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[0.181582] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/share/darknet_ros_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.181639] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/share/darknet_ros_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.181738] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/share/darknet_ros_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.181794] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/share/darknet_ros_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.181849] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/share/darknet_ros_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.182008] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/share/darknet_ros_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.182067] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/share/darknet_ros_msgs/cmake/darknet_ros_msgsConfig.cmake\n'}
+[0.182223] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/share/darknet_ros_msgs/cmake/darknet_ros_msgsConfig-version.cmake\n'}
+[0.182391] (darknet_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/adimas/zed_ros2/install/darknet_ros_msgs/share/darknet_ros_msgs/package.xml\n'}
+[0.183109] (darknet_ros_msgs) CommandEnded: {'returncode': 0}
+[0.200316] (-) TimerEvent: {}
+[0.263123] (darknet_ros_msgs) JobEnded: {'identifier': 'darknet_ros_msgs', 'rc': 0}
+[0.263834] (open_cam) JobStarted: {'identifier': 'open_cam'}
+[0.270522] (open_cam) JobProgress: {'identifier': 'open_cam', 'progress': 'cmake'}
+[0.271250] (open_cam) JobProgress: {'identifier': 'open_cam', 'progress': 'build'}
+[0.271410] (open_cam) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/adimas/zed_ros2/build/open_cam', '--', '-j8', '-l8'], 'cwd': '/home/adimas/zed_ros2/build/open_cam', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'adimas'), ('LC_TIME', 'id_ID.UTF-8'), ('SSH_AGENT_PID', '2025'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/adimas/zed_ros2/install/darknet_ros_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-12.1/lib64'), ('HOME', '/home/adimas'), ('OLDPWD', '/home/adimas'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '1786'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '13915'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('QT_QPA_PLATFORMTHEME', 'appmenu-qt5'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/adimas/zed_ros2/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'adimas'), ('JOURNAL_STREAM', '9:42714'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'adimas'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('GTK2_MODULES', 'overlay-scrollbar'), ('WINDOWPATH', '2'), ('PATH', '/home/adimas/zed_ros2/install/depth/bin:/opt/ros/foxy/bin:/usr/local/cuda-12.1/bin:/home/adimas/bin:/home/adimas/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/FUTURA:@/tmp/.ICE-unix/2060,unix/FUTURA:/tmp/.ICE-unix/2060'), ('INVOCATION_ID', '1191f3eb196d4328ba2dcb3c9e00d5c5'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/adimas/zed_ros2/install/darknet_ros_msgs:/home/adimas/zed_ros2/install/open_cam:/home/adimas/zed_ros2/install/depth:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:adfeac3a-6ee3-4563-ad40-8caabadfc713'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/adimas/zed_ros2/build/open_cam'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/adimas/zed_ros2/install/darknet_ros_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/adimas/zed_ros2/install/darknet_ros_msgs:/home/adimas/zed_ros2/install/open_cam:/home/adimas/zed_ros2/install/depth:/opt/ros/foxy')]), 'shell': False}
+[0.297377] (open_cam) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/open_cam.dir/src/main.cpp.o\x1b[0m\n'}
+[0.300319] (-) TimerEvent: {}
+[0.400546] (-) TimerEvent: {}
+[0.500816] (-) TimerEvent: {}
+[0.601088] (-) TimerEvent: {}
+[0.701359] (-) TimerEvent: {}
+[0.801673] (-) TimerEvent: {}
+[0.902054] (-) TimerEvent: {}
+[1.002353] (-) TimerEvent: {}
+[1.102627] (-) TimerEvent: {}
+[1.202896] (-) TimerEvent: {}
+[1.303164] (-) TimerEvent: {}
+[1.403459] (-) TimerEvent: {}
+[1.503686] (-) TimerEvent: {}
+[1.603942] (-) TimerEvent: {}
+[1.704182] (-) TimerEvent: {}
+[1.804506] (-) TimerEvent: {}
+[1.904763] (-) TimerEvent: {}
+[2.005037] (-) TimerEvent: {}
+[2.105322] (-) TimerEvent: {}
+[2.205567] (-) TimerEvent: {}
+[2.227082] (open_cam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/adimas/zed_ros2/src/open_cam/src/main.cpp:7\x1b[m\x1b[K:\n'}
+[2.227265] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:896:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[2.227327] (open_cam) StderrLine: {'line': b'  896 |             \x1b[01;35m\x1b[K}\x1b[m\x1b[K;\n'}
+[2.227381] (open_cam) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.227504] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:1049:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[2.227586] (open_cam) StderrLine: {'line': b' 1049 |             \x1b[01;35m\x1b[K}\x1b[m\x1b[K;\n'}
+[2.227641] (open_cam) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.227691] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:1226:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[2.227741] (open_cam) StderrLine: {'line': b' 1226 |             \x1b[01;35m\x1b[K}\x1b[m\x1b[K;\n'}
+[2.227788] (open_cam) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.228147] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:1390:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[2.228304] (open_cam) StderrLine: {'line': b' 1390 |             \x1b[01;35m\x1b[K}\x1b[m\x1b[K;\n'}
+[2.228368] (open_cam) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.228420] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:1394:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[2.228471] (open_cam) StderrLine: {'line': b' 1394 |             \x1b[01;35m\x1b[K}\x1b[m\x1b[K;\n'}
+[2.228519] (open_cam) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.228565] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:1398:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[2.228612] (open_cam) StderrLine: {'line': b' 1398 |             \x1b[01;35m\x1b[K}\x1b[m\x1b[K;\n'}
+[2.228659] (open_cam) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.229287] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:1638:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[2.229370] (open_cam) StderrLine: {'line': b' 1638 |             \x1b[01;35m\x1b[K}\x1b[m\x1b[K;\n'}
+[2.229498] (open_cam) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.229571] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:1642:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[2.229625] (open_cam) StderrLine: {'line': b' 1642 |             \x1b[01;35m\x1b[K}\x1b[m\x1b[K;\n'}
+[2.229675] (open_cam) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.229722] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:1646:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[2.229770] (open_cam) StderrLine: {'line': b' 1646 |             \x1b[01;35m\x1b[K}\x1b[m\x1b[K;\n'}
+[2.229817] (open_cam) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.231751] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Ksl::Timestamp sl::operator+(sl::Timestamp, const sl::Timestamp&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.231832] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:2104:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kimplicitly-declared \xe2\x80\x98\x1b[01m\x1b[Kconstexpr sl::Timestamp::Timestamp(const sl::Timestamp&)\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-copy\x1b[m\x1b[K]\n'}
+[2.231985] (open_cam) StderrLine: {'line': b' 2104 |         return \x1b[01;35m\x1b[Klhs\x1b[m\x1b[K;\n'}
+[2.232044] (open_cam) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.232106] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:2043:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kbecause \xe2\x80\x98\x1b[01m\x1b[Ksl::Timestamp\x1b[m\x1b[K\xe2\x80\x99 has user-provided \xe2\x80\x98\x1b[01m\x1b[Ksl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.232159] (open_cam) StderrLine: {'line': b' 2043 |         Timestamp& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(Timestamp other) {\n'}
+[2.232208] (open_cam) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.232257] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Ksl::Timestamp sl::operator-(sl::Timestamp, const sl::Timestamp&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.232348] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:2109:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kimplicitly-declared \xe2\x80\x98\x1b[01m\x1b[Kconstexpr sl::Timestamp::Timestamp(const sl::Timestamp&)\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-copy\x1b[m\x1b[K]\n'}
+[2.232442] (open_cam) StderrLine: {'line': b' 2109 |         return \x1b[01;35m\x1b[Klhs\x1b[m\x1b[K;\n'}
+[2.232490] (open_cam) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.232537] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:2043:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kbecause \xe2\x80\x98\x1b[01m\x1b[Ksl::Timestamp\x1b[m\x1b[K\xe2\x80\x99 has user-provided \xe2\x80\x98\x1b[01m\x1b[Ksl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.232586] (open_cam) StderrLine: {'line': b' 2043 |         Timestamp& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(Timestamp other) {\n'}
+[2.232634] (open_cam) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.232685] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Ksl::Timestamp sl::operator/(sl::Timestamp, const sl::Timestamp&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.232733] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:2114:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kimplicitly-declared \xe2\x80\x98\x1b[01m\x1b[Kconstexpr sl::Timestamp::Timestamp(const sl::Timestamp&)\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-copy\x1b[m\x1b[K]\n'}
+[2.232788] (open_cam) StderrLine: {'line': b' 2114 |         return \x1b[01;35m\x1b[Klhs\x1b[m\x1b[K;\n'}
+[2.232836] (open_cam) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.232883] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:2043:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kbecause \xe2\x80\x98\x1b[01m\x1b[Ksl::Timestamp\x1b[m\x1b[K\xe2\x80\x99 has user-provided \xe2\x80\x98\x1b[01m\x1b[Ksl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.232931] (open_cam) StderrLine: {'line': b' 2043 |         Timestamp& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(Timestamp other) {\n'}
+[2.232978] (open_cam) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.233024] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Ksl::Timestamp sl::operator*(sl::Timestamp, const sl::Timestamp&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.233071] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:2119:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kimplicitly-declared \xe2\x80\x98\x1b[01m\x1b[Kconstexpr sl::Timestamp::Timestamp(const sl::Timestamp&)\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-copy\x1b[m\x1b[K]\n'}
+[2.233122] (open_cam) StderrLine: {'line': b' 2119 |         return \x1b[01;35m\x1b[Klhs\x1b[m\x1b[K;\n'}
+[2.233168] (open_cam) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.233216] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:2043:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kbecause \xe2\x80\x98\x1b[01m\x1b[Ksl::Timestamp\x1b[m\x1b[K\xe2\x80\x99 has user-provided \xe2\x80\x98\x1b[01m\x1b[Ksl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.233264] (open_cam) StderrLine: {'line': b' 2043 |         Timestamp& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(Timestamp other) {\n'}
+[2.233311] (open_cam) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.233359] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Ksl::Timestamp sl::getCurrentTimeStamp()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.233407] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:2153:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kimplicitly-declared \xe2\x80\x98\x1b[01m\x1b[Kconstexpr sl::Timestamp::Timestamp(const sl::Timestamp&)\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-copy\x1b[m\x1b[K]\n'}
+[2.233455] (open_cam) StderrLine: {'line': b' 2153 |         return \x1b[01;35m\x1b[Kcurrent_ts\x1b[m\x1b[K;\n'}
+[2.233502] (open_cam) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.233549] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:2043:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kbecause \xe2\x80\x98\x1b[01m\x1b[Ksl::Timestamp\x1b[m\x1b[K\xe2\x80\x99 has user-provided \xe2\x80\x98\x1b[01m\x1b[Ksl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.233597] (open_cam) StderrLine: {'line': b' 2043 |         Timestamp& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(Timestamp other) {\n'}
+[2.233644] (open_cam) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.233689] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[KcudaError sl::__cudaSafeCall(cudaError, const char*, const char*, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.233736] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:2160:89:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kfile\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[2.233783] (open_cam) StderrLine: {'line': b' 2160 | or __cudaSafeCall(cudaError err, const char *func, \x1b[01;35m\x1b[Kconst char *file\x1b[m\x1b[K, const int line) {\n'}
+[2.233831] (open_cam) StderrLine: {'line': b'      |                                                    \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[2.233878] (open_cam) StderrLine: {'line': b'\n'}
+[2.233925] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:2160:105:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kline\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[2.233976] (open_cam) StderrLine: {'line': b' 2160 | l(cudaError err, const char *func, const char *file, \x1b[01;35m\x1b[Kconst int line\x1b[m\x1b[K) {\n'}
+[2.234024] (open_cam) StderrLine: {'line': b'      |                                                      \x1b[01;35m\x1b[K~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[2.234070] (open_cam) StderrLine: {'line': b'\n'}
+[2.235895] (open_cam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/adimas/zed_ros2/src/open_cam/src/main.cpp:7\x1b[m\x1b[K:\n'}
+[2.235981] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Ksl::CalibrationParameters sl::CalibrationParameters::scale(sl::Resolution)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.236036] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:3178:62:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kimplicitly-declared \xe2\x80\x98\x1b[01m\x1b[Ksl::Transform& sl::Transform::operator=(const sl::Transform&)\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-copy\x1b[m\x1b[K]\n'}
+[2.236115] (open_cam) StderrLine: {'line': b' 3178 |             output_calibration_parameters.stereo_transform = \x1b[01;35m\x1b[Kstereo_transform\x1b[m\x1b[K;\n'}
+[2.236163] (open_cam) StderrLine: {'line': b'      |                                                              \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.236210] (open_cam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/adimas/zed_ros2/src/open_cam/src/main.cpp:7\x1b[m\x1b[K:\n'}
+[2.236257] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:3023:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kbecause \xe2\x80\x98\x1b[01m\x1b[Ksl::Transform\x1b[m\x1b[K\xe2\x80\x99 has user-provided \xe2\x80\x98\x1b[01m\x1b[Ksl::Transform::Transform(const sl::Transform&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.236309] (open_cam) StderrLine: {'line': b' 3023 |         \x1b[01;36m\x1b[KTransform\x1b[m\x1b[K(const Transform &motion);\n'}
+[2.236357] (open_cam) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.236407] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Ksl::Transform& sl::Transform::operator=(const sl::Transform&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.236455] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:3012:60:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kimplicitly-declared \xe2\x80\x98\x1b[01m\x1b[Ksl::Matrix4f& sl::Matrix4f::operator=(const sl::Matrix4f&)\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-copy\x1b[m\x1b[K]\n'}
+[2.236503] (open_cam) StderrLine: {'line': b' 3012 |     class /*@cond SHOWHIDDEN*/ SL_CORE_EXPORT /*@endcond*/ \x1b[01;35m\x1b[KTransform\x1b[m\x1b[K : public Matrix4f {\n'}
+[2.236550] (open_cam) StderrLine: {'line': b'      |                                                            \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.236598] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:1069:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kbecause \xe2\x80\x98\x1b[01m\x1b[Ksl::Matrix4f\x1b[m\x1b[K\xe2\x80\x99 has user-provided \xe2\x80\x98\x1b[01m\x1b[Ksl::Matrix4f::Matrix4f(const sl::Matrix4f&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.236647] (open_cam) StderrLine: {'line': b' 1069 |         \x1b[01;36m\x1b[KMatrix4f\x1b[m\x1b[K(const Matrix4f &mat);\n'}
+[2.236694] (open_cam) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.236741] (open_cam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/adimas/zed_ros2/src/open_cam/src/main.cpp:7\x1b[m\x1b[K:\n'}
+[2.236789] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Ksl::CalibrationParameters sl::CalibrationParameters::scale(sl::Resolution)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.236836] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:3178:62:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksynthesized method \xe2\x80\x98\x1b[01m\x1b[Ksl::Transform& sl::Transform::operator=(const sl::Transform&)\x1b[m\x1b[K\xe2\x80\x99 first required here\n'}
+[2.236884] (open_cam) StderrLine: {'line': b' 3178 |             output_calibration_parameters.stereo_transform = \x1b[01;36m\x1b[Kstereo_transform\x1b[m\x1b[K;\n'}
+[2.236931] (open_cam) StderrLine: {'line': b'      |                                                              \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.305696] (-) TimerEvent: {}
+[2.317641] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:\x1b[m\x1b[K At global scope:\n'}
+[2.317800] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:6254:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktype qualifiers ignored on function return type [\x1b[01;35m\x1b[K-Wignored-qualifiers\x1b[m\x1b[K]\n'}
+[2.317859] (open_cam) StderrLine: {'line': b' 6254 |     inline \x1b[01;35m\x1b[Kconst\x1b[m\x1b[K void /*@cond SHOWHIDDEN*/SL_SDK_EXPORT/*@endcond*/ getZEDSDKBuildVersion(int &major, int& minor, int& patch) {\n'}
+[2.317913] (open_cam) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.320149] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:6640:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[2.320233] (open_cam) StderrLine: {'line': b' 6640 | }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[2.320288] (open_cam) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.361068] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adimas/zed_ros2/src/open_cam/src/main.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[2.361215] (open_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adimas/zed_ros2/src/open_cam/src/main.cpp:48:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpoint_cloud\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kpoint_cloud_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.361283] (open_cam) StderrLine: {'line': b'   48 |         zed_.retrieveMeasure(\x1b[01;31m\x1b[Kpoint_cloud\x1b[m\x1b[K, MEASURE::XYZRGBA);\n'}
+[2.361336] (open_cam) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.361388] (open_cam) StderrLine: {'line': b'      |                              \x1b[32m\x1b[Kpoint_cloud_\x1b[m\x1b[K\n'}
+[2.405814] (-) TimerEvent: {}
+[2.506047] (-) TimerEvent: {}
+[2.606330] (-) TimerEvent: {}
+[2.706597] (-) TimerEvent: {}
+[2.806876] (-) TimerEvent: {}
+[2.907160] (-) TimerEvent: {}
+[3.007447] (-) TimerEvent: {}
+[3.107770] (-) TimerEvent: {}
+[3.208079] (-) TimerEvent: {}
+[3.308328] (-) TimerEvent: {}
+[3.408560] (-) TimerEvent: {}
+[3.508849] (-) TimerEvent: {}
+[3.609125] (-) TimerEvent: {}
+[3.709427] (-) TimerEvent: {}
+[3.809713] (-) TimerEvent: {}
+[3.909979] (-) TimerEvent: {}
+[4.010244] (-) TimerEvent: {}
+[4.110512] (-) TimerEvent: {}
+[4.210776] (-) TimerEvent: {}
+[4.311018] (-) TimerEvent: {}
+[4.339247] (open_cam) StderrLine: {'line': b'make[2]: *** [CMakeFiles/open_cam.dir/build.make:76: CMakeFiles/open_cam.dir/src/main.cpp.o] Error 1\n'}
+[4.339523] (open_cam) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/open_cam.dir/all] Error 2\n'}
+[4.339657] (open_cam) StderrLine: {'line': b'make: *** [Makefile:146: all] Error 2\n'}
+[4.340643] (open_cam) CommandEnded: {'returncode': 2}
+[4.362042] (open_cam) JobEnded: {'identifier': 'open_cam', 'rc': 2}
+[4.373367] (-) EventReactorShutdown: {}

@@ -1,0 +1,10 @@
+[0.015s] Invoking command in '/home/adimas/zed_ros2/build/open_cam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/adimas/zed_ros2/build/open_cam -- -j8 -l8
+[0.072s] [ 50%] [32mBuilding CXX object CMakeFiles/open_cam.dir/src/main.cpp.o[0m
+[0.371s] [01m[K/home/adimas/zed_ros2/src/open_cam/src/main.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Ksensor_msgs/msg/image_depth.hpp: No such file or directory
+[0.371s]     3 | #include [01;31m[K<sensor_msgs/msg/image_depth.hpp>[m[K
+[0.372s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.372s] compilation terminated.
+[0.376s] make[2]: *** [CMakeFiles/open_cam.dir/build.make:76: CMakeFiles/open_cam.dir/src/main.cpp.o] Error 1
+[0.376s] make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/open_cam.dir/all] Error 2
+[0.376s] make: *** [Makefile:146: all] Error 2
+[0.378s] Invoked command in '/home/adimas/zed_ros2/build/open_cam' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/adimas/zed_ros2/build/open_cam -- -j8 -l8

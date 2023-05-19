@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/adimas/zed_ros2/build/open_cam/open_cam" "TARGETS" "open_cam" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "DESTINATION" "lib/open_cam")

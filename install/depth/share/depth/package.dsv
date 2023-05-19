@@ -1,0 +1,14 @@
+source;share/depth/hook/cmake_prefix_path.ps1
+source;share/depth/hook/cmake_prefix_path.dsv
+source;share/depth/hook/cmake_prefix_path.sh
+source;share/depth/hook/path.ps1
+source;share/depth/hook/path.dsv
+source;share/depth/hook/path.sh
+source;share/depth/hook/pythonscriptspath.ps1
+source;share/depth/hook/pythonscriptspath.dsv
+source;share/depth/hook/pythonscriptspath.sh
+source;share/depth/local_setup.bash
+source;share/depth/local_setup.dsv
+source;share/depth/local_setup.ps1
+source;share/depth/local_setup.sh
+source;share/depth/local_setup.zsh

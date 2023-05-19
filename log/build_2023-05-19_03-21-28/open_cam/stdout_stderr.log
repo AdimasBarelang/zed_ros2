@@ -1,0 +1,54 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/open_cam.dir/src/main.cpp.o[0m
+[01m[K/home/adimas/zed_ros2/src/open_cam/src/main.cpp:8:17:[m[K [01;31m[Kerror: [m[K‘[01m[Ksl[m[K’ is not a namespace-name
+    8 | using namespace [01;31m[Ksl[m[K;
+      |                 [01;31m[K^~[m[K
+[01m[K/home/adimas/zed_ros2/src/open_cam/src/main.cpp:[m[K In member function ‘[01m[Kvoid ZedCameraNode::captureImage()[m[K’:
+[01m[K/home/adimas/zed_ros2/src/open_cam/src/main.cpp:26:5:[m[K [01;31m[Kerror: [m[K‘[01m[KCamera[m[K’ was not declared in this scope
+   26 |     [01;31m[KCamera[m[K zed;
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/adimas/zed_ros2/src/open_cam/src/main.cpp:28:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksl[m[K’ has not been declared
+   28 |     [01;31m[Ksl[m[K::InitParameters init_parameters;
+      |     [01;31m[K^~[m[K
+[01m[K/home/adimas/zed_ros2/src/open_cam/src/main.cpp:29:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kinit_parameters[m[K’ was not declared in this scope; did you mean ‘[01m[Kset_parameters[m[K’?
+   29 |     [01;31m[Kinit_parameters[m[K.sdk_verbose = true;
+      |     [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |     [32m[Kset_parameters[m[K
+[01m[K/home/adimas/zed_ros2/src/open_cam/src/main.cpp:30:40:[m[K [01;31m[Kerror: [m[K‘[01m[Ksl[m[K’ has not been declared
+   30 |     init_parameters.camera_resolution= [01;31m[Ksl[m[K::RESOLUTION::AUTO;
+      |                                        [01;31m[K^~[m[K
+[01m[K/home/adimas/zed_ros2/src/open_cam/src/main.cpp:31:34:[m[K [01;31m[Kerror: [m[K‘[01m[Ksl[m[K’ has not been declared
+   31 |     init_parameters.depth_mode = [01;31m[Ksl[m[K::DEPTH_MODE::NONE; // no depth computation required here
+      |                                  [01;31m[K^~[m[K
+[01m[K/home/adimas/zed_ros2/src/open_cam/src/main.cpp:32:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kargc[m[K’ was not declared in this scope
+   32 |     parseArgs([01;31m[Kargc[m[K,argv, init_parameters);
+      |               [01;31m[K^~~~[m[K
+[01m[K/home/adimas/zed_ros2/src/open_cam/src/main.cpp:32:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kargv[m[K’ was not declared in this scope
+   32 |     parseArgs(argc,[01;31m[Kargv[m[K, init_parameters);
+      |                    [01;31m[K^~~~[m[K
+[01m[K/home/adimas/zed_ros2/src/open_cam/src/main.cpp:32:5:[m[K [01;31m[Kerror: [m[K‘[01m[KparseArgs[m[K’ was not declared in this scope
+   32 |     [01;31m[KparseArgs[m[K(argc,argv, init_parameters);
+      |     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/adimas/zed_ros2/src/open_cam/src/main.cpp:37:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kzed[m[K’ was not declared in this scope
+   37 |     [01;31m[Kzed[m[K.retrieveImage(frame, VIEW::LEFT);
+      |     [01;31m[K^~~[m[K
+[01m[K/home/adimas/zed_ros2/src/open_cam/src/main.cpp:37:30:[m[K [01;31m[Kerror: [m[K‘[01m[KVIEW[m[K’ has not been declared
+   37 |     zed.retrieveImage(frame, [01;31m[KVIEW[m[K::LEFT);
+      |                              [01;31m[K^~~~[m[K
+[01m[K/home/adimas/zed_ros2/src/open_cam/src/main.cpp:38:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass cv::Mat[m[K’ has no member named ‘[01m[KgetHeight[m[K’
+   38 |     cv::Mat cvImage = cv::Mat((int) frame.[01;31m[KgetHeight[m[K(), (int) frame.getWidth(), CV_8UC4, zed_image.getPtr<sl::uchar1>(sl::MEM::CPU));
+      |                                           [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/adimas/zed_ros2/src/open_cam/src/main.cpp:38:68:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass cv::Mat[m[K’ has no member named ‘[01m[KgetWidth[m[K’
+   38 | cv::Mat cvImage = cv::Mat((int) frame.getHeight(), (int) frame.[01;31m[KgetWidth[m[K(), CV_8UC4, zed_image.getPtr<sl::uchar1>(sl::MEM::CPU));
+      |                                                                [01;31m[K^~~~~~~~[m[K
+
+[01m[K/home/adimas/zed_ros2/src/open_cam/src/main.cpp:38:89:[m[K [01;31m[Kerror: [m[K‘[01m[Kzed_image[m[K’ was not declared in this scope
+   38 | :Mat((int) frame.getHeight(), (int) frame.getWidth(), CV_8UC4, [01;31m[Kzed_image[m[K.getPtr<sl::uchar1>(sl::MEM::CPU));
+      |                                                                [01;31m[K^~~~~~~~~[m[K
+
+[01m[K/home/adimas/zed_ros2/src/open_cam/src/main.cpp:38:106:[m[K [01;31m[Kerror: [m[K‘[01m[Ksl[m[K’ was not declared in this scope
+   38 | getHeight(), (int) frame.getWidth(), CV_8UC4, zed_image.getPtr<[01;31m[Ksl[m[K::uchar1>(sl::MEM::CPU));
+      |                                                                [01;31m[K^~[m[K
+
+make[2]: *** [CMakeFiles/open_cam.dir/build.make:76: CMakeFiles/open_cam.dir/src/main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/open_cam.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

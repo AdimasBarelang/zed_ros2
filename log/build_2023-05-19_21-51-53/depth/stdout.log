@@ -1,0 +1,18 @@
+[100%] Built target depth
+-- Install configuration: ""
+-- Up-to-date: /home/adimas/zed_ros2/install/depth/bin/depth
+-- Up-to-date: /home/adimas/zed_ros2/install/depth/share/ament_index/resource_index/package_run_dependencies/depth
+-- Up-to-date: /home/adimas/zed_ros2/install/depth/share/ament_index/resource_index/parent_prefix_path/depth
+-- Up-to-date: /home/adimas/zed_ros2/install/depth/share/depth/environment/ament_prefix_path.sh
+-- Up-to-date: /home/adimas/zed_ros2/install/depth/share/depth/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/adimas/zed_ros2/install/depth/share/depth/environment/path.sh
+-- Up-to-date: /home/adimas/zed_ros2/install/depth/share/depth/environment/path.dsv
+-- Up-to-date: /home/adimas/zed_ros2/install/depth/share/depth/local_setup.bash
+-- Up-to-date: /home/adimas/zed_ros2/install/depth/share/depth/local_setup.sh
+-- Up-to-date: /home/adimas/zed_ros2/install/depth/share/depth/local_setup.zsh
+-- Up-to-date: /home/adimas/zed_ros2/install/depth/share/depth/local_setup.dsv
+-- Installing: /home/adimas/zed_ros2/install/depth/share/depth/package.dsv
+-- Up-to-date: /home/adimas/zed_ros2/install/depth/share/ament_index/resource_index/packages/depth
+-- Up-to-date: /home/adimas/zed_ros2/install/depth/share/depth/cmake/depthConfig.cmake
+-- Up-to-date: /home/adimas/zed_ros2/install/depth/share/depth/cmake/depthConfig-version.cmake
+-- Up-to-date: /home/adimas/zed_ros2/install/depth/share/depth/package.xml

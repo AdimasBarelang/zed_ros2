@@ -1,0 +1,9 @@
+{
+  "package_name": "darknet_ros_msgs",
+  "non_idl_tuples": [
+    "/home/adimas/zed_ros2/src/darknet_ros_msgs:msg/BoundingBox.msg",
+    "/home/adimas/zed_ros2/src/darknet_ros_msgs:msg/BoundingBoxes.msg",
+    "/home/adimas/zed_ros2/src/darknet_ros_msgs:msg/ObjectCount.msg",
+    "/home/adimas/zed_ros2/src/darknet_ros_msgs:action/CheckForObjects.action"
+  ]
+}

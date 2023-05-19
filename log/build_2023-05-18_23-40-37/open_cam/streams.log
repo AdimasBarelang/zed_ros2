@@ -1,0 +1,23 @@
+[0.012s] Invoking command in '/home/adimas/zed_ros2/build/open_cam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/adimas/zed_ros2/build/open_cam -- -j8 -l8
+[0.035s] [100%] Built target open_cam
+[0.038s] Invoked command in '/home/adimas/zed_ros2/build/open_cam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/adimas/zed_ros2/build/open_cam -- -j8 -l8
+[0.054s] Invoking command in '/home/adimas/zed_ros2/build/open_cam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/adimas/zed_ros2/build/open_cam
+[0.056s] -- Install configuration: ""
+[0.057s] -- Execute custom install script
+[0.057s] -- Up-to-date symlink: /home/adimas/zed_ros2/install/open_cam/lib/open_cam/open_cam
+[0.057s] -- Up-to-date symlink: /home/adimas/zed_ros2/install/open_cam/share/ament_index/resource_index/package_run_dependencies/open_cam
+[0.057s] -- Up-to-date symlink: /home/adimas/zed_ros2/install/open_cam/share/ament_index/resource_index/parent_prefix_path/open_cam
+[0.057s] -- Up-to-date symlink: /home/adimas/zed_ros2/install/open_cam/share/open_cam/environment/ament_prefix_path.sh
+[0.057s] -- Up-to-date symlink: /home/adimas/zed_ros2/install/open_cam/share/open_cam/environment/ament_prefix_path.dsv
+[0.057s] -- Up-to-date symlink: /home/adimas/zed_ros2/install/open_cam/share/open_cam/environment/path.sh
+[0.057s] -- Up-to-date symlink: /home/adimas/zed_ros2/install/open_cam/share/open_cam/environment/path.dsv
+[0.057s] -- Up-to-date symlink: /home/adimas/zed_ros2/install/open_cam/share/open_cam/local_setup.bash
+[0.058s] -- Up-to-date symlink: /home/adimas/zed_ros2/install/open_cam/share/open_cam/local_setup.sh
+[0.058s] -- Up-to-date symlink: /home/adimas/zed_ros2/install/open_cam/share/open_cam/local_setup.zsh
+[0.058s] -- Up-to-date symlink: /home/adimas/zed_ros2/install/open_cam/share/open_cam/local_setup.dsv
+[0.058s] -- Symlinking: /home/adimas/zed_ros2/install/open_cam/share/open_cam/package.dsv
+[0.060s] -- Up-to-date symlink: /home/adimas/zed_ros2/install/open_cam/share/ament_index/resource_index/packages/open_cam
+[0.060s] -- Up-to-date symlink: /home/adimas/zed_ros2/install/open_cam/share/open_cam/cmake/open_camConfig.cmake
+[0.060s] -- Up-to-date symlink: /home/adimas/zed_ros2/install/open_cam/share/open_cam/cmake/open_camConfig-version.cmake
+[0.060s] -- Up-to-date symlink: /home/adimas/zed_ros2/install/open_cam/share/open_cam/package.xml
+[0.062s] Invoked command in '/home/adimas/zed_ros2/build/open_cam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/adimas/zed_ros2/build/open_cam

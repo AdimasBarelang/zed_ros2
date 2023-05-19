@@ -1,0 +1,21 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/open_cam.dir/src/main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable open_cam[0m
+[100%] Built target open_cam
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/adimas/zed_ros2/install/open_cam/lib/open_cam/open_cam
+-- Symlinking: /home/adimas/zed_ros2/install/open_cam/share/ament_index/resource_index/package_run_dependencies/open_cam
+-- Symlinking: /home/adimas/zed_ros2/install/open_cam/share/ament_index/resource_index/parent_prefix_path/open_cam
+-- Symlinking: /home/adimas/zed_ros2/install/open_cam/share/open_cam/environment/ament_prefix_path.sh
+-- Symlinking: /home/adimas/zed_ros2/install/open_cam/share/open_cam/environment/ament_prefix_path.dsv
+-- Symlinking: /home/adimas/zed_ros2/install/open_cam/share/open_cam/environment/path.sh
+-- Symlinking: /home/adimas/zed_ros2/install/open_cam/share/open_cam/environment/path.dsv
+-- Symlinking: /home/adimas/zed_ros2/install/open_cam/share/open_cam/local_setup.bash
+-- Symlinking: /home/adimas/zed_ros2/install/open_cam/share/open_cam/local_setup.sh
+-- Symlinking: /home/adimas/zed_ros2/install/open_cam/share/open_cam/local_setup.zsh
+-- Symlinking: /home/adimas/zed_ros2/install/open_cam/share/open_cam/local_setup.dsv
+-- Symlinking: /home/adimas/zed_ros2/install/open_cam/share/open_cam/package.dsv
+-- Symlinking: /home/adimas/zed_ros2/install/open_cam/share/ament_index/resource_index/packages/open_cam
+-- Symlinking: /home/adimas/zed_ros2/install/open_cam/share/open_cam/cmake/open_camConfig.cmake
+-- Symlinking: /home/adimas/zed_ros2/install/open_cam/share/open_cam/cmake/open_camConfig-version.cmake
+-- Symlinking: /home/adimas/zed_ros2/install/open_cam/share/open_cam/package.xml
