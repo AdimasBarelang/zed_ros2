@@ -1,1 +1,1 @@
-My Program Using ZEDM for Measuring Distnace Of An Object Using Darknet_ros_msgs Bounding Box
+My program using ZEDM camera for measuring the distannce of each class from darknet_msgs bounding box
